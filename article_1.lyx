@@ -1,0 +1,1433 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language hebrew
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman default
+\font_sans default
+\font_typewriter default
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine basic
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\rightmargin 2cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+עיבוד אותות ואיבוד עשתונות
+\end_layout
+
+\begin_layout Author
+פלוני ואלמוני
+\end_layout
+
+\begin_layout Abstract
+מצאנו שאפי מתחבא בין התדרים 
+\begin_inset Formula $F_{1},F_{2}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+רקע תאורטי
+\end_layout
+
+\begin_layout Section*
+אפקט דופלר
+\end_layout
+
+\begin_layout Standard
+רגיל ]תמונה[
+\end_layout
+
+\begin_layout Standard
+בהינתן תווך של תופעה גלית )למשלף גלי קול( ובו מקור גל )מונוכרומטי( וצופה
+ ישנה משמעות למהירויות של הגל והצופה ביחס לתווך.
+ במקרה שהצופה והמקור נייחים ביחס לתווך אז הצופה מודד את אותו התדר לתופעה
+ כשם שהמקור מייצר.
+ כאשר המקור נע ביחס לצופה, אם נסתכל רק על שיאי הגל, המקור מתקדם מרחק מסוים
+ בין שידור שיא לבא אחריו, ולכן, מכיוון שמהירות הגל בתווך קבועה, הפרש הזמנים
+ בו הם יגיעו לצופה יתקצר )או יתארך אם המקור מתרחק מהצופה( והתדר הנצפה יהיה
+ גדול )קטן( מהתדר המשודר.
+ )ראו תמונה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+x
+\lang hebrew
+( דרך נוספת להסתכל על התופעה: קצב הקליטה גדול מקצב השידור, כיוון שהצופה
+ "אוסף" חזיתות גל נוספות מהמרחק הקטן בין המקור לצופה.
+ תופעה דומה מקבלים עבור התקרבות, תופעה דומה עבור צופה בתנועה.
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Formula 
+\begin{equation}
+f_{ob}=f_{src}\frac{c+v_{ob}}{c-v_{src}}\Rightarrow\Delta f=f_{src}\frac{v_{rel}}{c-v_{src}}\underset{v_{src}\ll c}{\approx}f_{src}\frac{v_{rel}}{c}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Description
+משוואה)
+\numeric on
+1
+\numeric off
+(: אפקט דופלר לא יחסותי.
+\end_layout
+
+\begin_layout Description
+\begin_inset Formula $c$
+\end_inset
+
+ מהירות הגל, 
+\begin_inset Formula $v_{src/ob/rel}$
+\end_inset
+
+ מהירות המקור
+\backslash
+הצופה
+\backslash
+כוללת בהתאמה )חיובית בהתקרבות(
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset VSpace defskip
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename doppler_shift_all.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ווום של מכוניות
+\end_layout
+
+\begin_layout Standard
+קירוב עצמים איטיים
+\end_layout
+
+\begin_layout Standard
+תנועה דו ממדית.
+ אפקט דופלר לפי מהירות רדיאלית - היטל מהירות )הסתה( תמונת המחשה - תנועה
+ מעגלית / סתם תמונה שממחישה את ההיטל הרדיאלי של המהירות
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename radial_doppler_2D_2.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+אנליזת פורייה
+\end_layout
+
+\begin_layout Standard
+העבודה בציר התדר נוחה ואף הכרחית ליישומים מסויימים: סינון רעשים לא רצויים
+ מהקלטת אודיו, דחיסת מידע, חישוב תכניות התאבכות וכו'.
+\end_layout
+
+\begin_layout Standard
+אנו מכירים פירוק של פונקציות לבסיס של קוסינוסים וסינוסים על ידי טור פורייה,
+ עבור פונקציות מחזוריות, וטרנספורם פורייה, עבור פונקציות כלליות.
+\end_layout
+
+\begin_layout Standard
+כדי לעבד בצורה זאת כל פונקציה, גם כזאת שאינה נתונה לנו בצורה מפורשת, נשתמש
+ במחשב שיחשב בשבילנו את הפירוק הספקטרלי ויבצע את כל המניפולציות.
+\end_layout
+
+\begin_layout Standard
+רציף.
+ בסיס סינוסים וקוסינוסים
+\end_layout
+
+\begin_layout Subsection*
+דגימה
+\end_layout
+
+\begin_layout Standard
+ראשית, עלינו להעביר את ה"פונקציה" שלנו לצורה בה המחשב יכול לקבלה.
+\end_layout
+
+\begin_layout Standard
+בהנחה שלרשותנו מחשב עם זיכרון סופי )או לפחות בן מנייה( נאלץ לזנוח חלק מהמידע
+ שבעולם האמיתי ולדגום את הפונקציה שמעניינת אותנו רק בנקודות זמן מסויימות.
+\end_layout
+
+\begin_layout Standard
+לשם כך ישנם רכיבי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+A2D
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שונים )
+\lang english
+Analog to Digital
+\lang hebrew
+( ש"דוגמים": ממירים אות חשמלי רציף לרצף של עוצמות בזמנים בדידים, ולרוב גם
+ במרווח קבוע )גם העוצמות בדידות(.
+ לדוגמא, כרטיס קול במחשב שממיר אות ממיקרופון למידע שנכנס לקובץ אודיו.
+\end_layout
+
+\begin_layout Standard
+בתהליך זה ישנן שתי תופעות לא רצויות שקורות לאות.
+ לראשונה נקרא "קיפולי תדר" )
+\lang english
+aliasing
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בלעז( שבה, כתוצאה מחוסר המידע על האות בין זמן דגימה אחד לשני נוצרת אי וודאות
+ בתדרים שהיו באות המקורי )לפני הדגימה(.
+ והשניה היא רזולוצית תדר מוגבלת שנובעת ממשך הזמן הסופי שבו אנחנו מתעדים
+ את האות )על פני משכי זמן קצרים מספיק קשה להבדיל בין שני סינוסים בתדירויות
+ קרובות(.
+ 
+\end_layout
+
+\begin_layout Standard
+עולם דיסקרטי
+\end_layout
+
+\begin_layout Standard
+עולם סופי
+\end_layout
+
+\begin_layout Standard
+תדירות נייקוויסט )תמונה(
+\end_layout
+
+\begin_layout Standard
+תדר מינימלי )תמונה(
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename freq_resolution_dt_short.png
+	scale 73
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+שני אותות בתדרים שונים )עליון ב-
+\numeric on
+0.15
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הרץ ותחתון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0.16
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הרץ(.
+ פעם בחלון זמן קצר, בוא לא ניתן להבדיל בין התדרים.
+ ופעם בחלון זמן ארוך, בו ניתן להבדיל ביניהם.
+ ליד הגרפים מספר המחזורים השלמים בחלון הזמן.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection*
+נייקוויסט )
+\lang english
+FFT
+\lang hebrew
+(
+\end_layout
+
+\begin_layout Subsection*
+אפנונים וגילויים
+\end_layout
+
+\begin_layout Standard
+)תמונה ותמונה( בכדי להרכיב מידע על אותות בתדרים שרירותיים, להלן "גל נושא",
+ )שנקבעים, למשל, על פי הקצאה של תקן בינלאומי לתקשורת סלולרית( נשתמש באפנונים
+ - שינויים לאות שתלויים במידע אותו נרצה להעביר.
+ שני האפנונים הכי בסיסיים )ומוכרים לנו מהרדיו בבית( הם אפנון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+AM
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\lang english
+FM
+\lang hebrew
+.
+ באפנון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+AM
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ְ
+\lang english
+Amplitude Modulation
+\lang hebrew
+, אות המידע )שמכיל תדירויות קטנות בהרבה מתדירות הגל הנושא( קובע את אמפליטודת
+ הגל הנושא: 
+\begin_inset Formula $signal(t)=\left(A_{0}+\Delta A\cdot data(t)\right)\cdot\sin\left(2\pi f_{c}t+\phi\right)$
+\end_inset
+
+, כאשר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+signal
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הוא האות המשודר )כפונ' של הזמן(,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+data
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+היא פונ' המידע בזמן, 
+\begin_inset Formula $f_{c}$
+\end_inset
+
+ הוא תדר הגל הנושא, 
+\begin_inset Formula $A_{0}$
+\end_inset
+
+היא אמפליטודה קבועה של האות, 
+\begin_inset Formula $\Delta A$
+\end_inset
+
+ עוצמת האפנון ו-
+\begin_inset Formula $\phi$
+\end_inset
+
+ זווית מופע שרירותית.
+ באפנון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+FM
+\lang hebrew
+,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Frequency Modulation
+\lang hebrew
+, אות המידע קובע את ההסטה של הגל הנושא מהתדר המרכזי: 
+\begin_inset Formula $signal(t)=A\cdot\sin\left(2\pi\left(f_{c}t+\Delta f\overset{t}{\int}data(\tau)d\tau\right)+\phi\right)$
+\end_inset
+
+, כאשר 
+\lang english
+signal
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הוא האות המשודר )כפונ' של הזמן(,
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+data
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+היא פונ' המידע בזמן, 
+\begin_inset Formula $f_{c}$
+\end_inset
+
+ הוא התדר המרכזי של הגל הנושא, 
+\begin_inset Formula $A$
+\end_inset
+
+היא אמפליטודת האות, 
+\begin_inset Formula $\Delta f$
+\end_inset
+
+ עוצמת האפנון ו-
+\begin_inset Formula $\phi$
+\end_inset
+
+ זווית מופע שרירותית .
+\end_layout
+
+\begin_layout Standard
+עתה שהרכבנו מידע על אותות נרצה גם לגלות אותם חזרה מהאות המאופנן.
+ 
+\end_layout
+
+\begin_layout Standard
+<<<< רעיון לפתח את זה: 
+\begin_inset Formula $Asin(2\pi f*t)$
+\end_inset
+
+<<< 
+\begin_inset Formula $A(t)sin(2\pi f$
+\end_inset
+
+ <<<< תמונה 
+\end_layout
+
+\begin_layout Subsection*
+ספקטרוגרמה
+\end_layout
+
+\begin_layout Standard
+]תמונה גנרית[
+\end_layout
+
+\begin_layout Part*
+מערכת הניסוי
+\end_layout
+
+\begin_layout Section*
+ניסוי
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series medium
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+ניסוי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+0
+\numeric off
+: תנועה במהירות קבועה לתיקוף אפקט דופלר.
+ קשה לעשות בלי חיכוך, ציוד מעבדה מתאים.
+ נפילה חופשית יופי.
+\end_layout
+
+\begin_layout Standard
+מקלט בנפילה חופשית, תנועה חד ממדית.
+ ]סיור סכמטי[
+\end_layout
+
+\begin_layout Standard
+מציאת תדר מיטבי לרכיבים )תוספת בנספח
+\backslash
+דיון(
+\end_layout
+
+\begin_layout Subsection*
+הערכת אצבע תדרים אופייניים
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename free_fall_vert&angle.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מהירות מקסימלית - , קירוב עצמים איטיים
+\end_layout
+
+\begin_layout Standard
+מהירות מינימלית מובחנת - רזולוציית מהירות - נובעת מרזולוציית תדר - נובעת
+ ממשך דגימה / עיבוד - מוגבלת ע"ׁי תאוצה )כמה זמן נשארים באותה מהירות(
+\end_layout
+
+\begin_layout Standard
+למה זה אמור לעבוד?: קינמטיקה, עקומה צפויה של מהירות בזמן, אפקט דופלר - עקומה
+ צפויה בספקטוגרמה /
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\begin_inset Formula $FM$
+\end_inset
+
+/ 
+\begin_inset Formula $PM$
+\end_inset
+
+.
+ ]נוסחאות[
+\end_layout
+
+\begin_layout Standard
+רגרסיה לינארית / התאמת עקומה ריבועית
+\end_layout
+
+\begin_layout Standard
+מה מחלצים: 
+\begin_inset Formula $\frac{g}{c}$
+\end_inset
+
+)הערה - בגלל אנליזת ממדים, לא נוכל למדוד אורכים(
+\end_layout
+
+\begin_layout Section*
+ניסוי
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+מקלט בנפילה חופשית, בהסחה אופקית, למעשה תנועה דו ממדית.
+ ]ציור סכמטי[
+\end_layout
+
+\begin_layout Standard
+קינמטיקה נוסחאות.
+ עקומה צפויה ב- ______
+\end_layout
+
+\begin_layout Standard
+אולי בתקווה - ניתוח בסיסי )מבוסס על משרדת תדר / שיפוע עקומת תדר / נקודת
+ מקסימום בהסחת התדר(
+\end_layout
+
+\begin_layout Standard
+התאמת עקומה יותר מורכבת - מוצאים את 
+\begin_inset Formula $g$
+\end_inset
+
+
+\begin_inset Formula $c$
+\end_inset
+
+בנפרד.
+\end_layout
+
+\begin_layout Section*
+ניסוי
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series medium
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+?
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename circular_motion.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+סיבוב המקלט )רחוק מהמשדר וקרוב לו(, ניתוח של אפנוני העוצמה והתדר, יש רדיוס
+ סיבוב ולכן מידה של אורך, אולי גם שינוי המרחקים ממרכז הסיבוב.
+\end_layout
+
+\begin_layout Part*
+תוצאות
+\end_layout
+
+\begin_layout Standard
+תמונות של ספקטוגרמות / גרפים / מספרים / אולי שגיאות או צלבים בגרפים
+\end_layout
+
+\begin_layout Standard
+להזכיר הפרעות בספקרטוגרמות - מולטיפת'ים )בייחוד בניסוי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+- שני מימדים(
+\end_layout
+
+\begin_layout Section*
+ניסוי
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series medium
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\end_layout
+
+\begin_layout Standard
+הניתוח לאחר הגעה לקצה תחתון של התנועה יותר קלה כי, מפאת קרבה למשדר, ה
+\begin_inset Formula $SNR$
+\end_inset
+
+ יותר גבוה - רצף של עליה ונפילה.
+\end_layout
+
+\begin_layout Section*
+ניסוי
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series medium
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\end_layout
+
+\begin_layout Standard
+הערה: ניסויים שכוללים חליפה.
+ חרא בספקטרום, תמונה בנספח, השערה: הדים, התאבכות
+\end_layout
+
+\begin_layout Section*
+ניסוי
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series medium
+\shape default
+\size normal
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+?
+\end_layout
+
+\begin_layout Part*
+מסקנות/דיון
+\end_layout
+
+\begin_layout Standard
+שימוש בדיסיפלינה עיבוד אותות תיקוף אפקט דופלר, מדידת קבועים
+\end_layout
+
+\end_body
+\end_document
