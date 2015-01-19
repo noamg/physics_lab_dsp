@@ -204,7 +204,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename doppler_shift_all.png
+	filename for article/doppler_shift_all.png
 	scale 40
 
 \end_inset
@@ -255,7 +255,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename radial_doppler_2D_2.png
+	filename for article/radial_doppler_2D_2.png
 	lyxscale 50
 	scale 50
 
@@ -444,7 +444,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename freq_resolution_dt_short.png
+	filename for article/freq_resolution_comb.png
 	scale 73
 
 \end_inset
@@ -1070,7 +1070,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename free_fall_vert&angle.png
+	filename for article/free_fall_vert&angle.png
 	scale 40
 
 \end_inset
@@ -1237,7 +1237,7 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename circular_motion.png
+	filename for article/circular_motion.png
 	lyxscale 40
 	scale 40
 
