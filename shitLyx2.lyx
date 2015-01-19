@@ -60,7 +60,15 @@
 \begin_body
 
 \begin_layout Standard
-sdf
+first
+\end_layout
+
+\begin_layout Part*
+sect
+\end_layout
+
+\begin_layout Standard
+second
 \end_layout
 
 \end_body
