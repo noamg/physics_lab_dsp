@@ -936,6 +936,37 @@ FM
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/model-spectrogram.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ספקטרוגרמה של אות מסונתז: ציר זמן בכיוון מעלה, שלושה מקטעים בהם האות בתדר
+ קבוע, עולה ליניארית בתדר ולבסוף חוזר לתדר המקורי אך מפסיק להיות גל טהור.
+\end_layout
+
+\end_inset
+
 אנליזת פורייה הצגה של סיגנל בתור הרכבה של פונקציות בסיס מחזוריות בתדרים
  מסוימים.
  במערכות מסוימות מעניין לבחון באיזו מתכונת התדרים משתנים לאורך הזמן.
