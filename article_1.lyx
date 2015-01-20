@@ -1186,6 +1186,61 @@ name "free_fall"
  ממשך דגימה עיבוד - המוגבל ע"י התאוצה )כמה זמן נשארים באותו תדר(
 \end_layout
 
+\begin_layout Standard
+במהלך פרק זמן של 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+ המיקרופון צובר מהירות 
+\begin_inset Formula $g\Delta T$
+\end_inset
+
+ ולכן חווה היסט דופלר של 
+\begin_inset Formula $\Delta f=f_{src}\frac{g\Delta T}{c}$
+\end_inset
+
+.
+ נדרוש שמשך המדידה )גודל חלון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+FFT
+\lang hebrew
+( שלנו יאפשר הפרדה בין תדרים בהפרש 
+\begin_inset Formula $\Delta f=\frac{1}{\Delta T}$
+\end_inset
+
+, כאשר חלון ארוך יותר יוריד מהרזולוציה בזמן כאשר במהלכו הסיגנל תופס יותר
+ מתא תדר בודד )רזולוציה בתדר גבוהה מדי( וחלון קצר יותר יוריד את הרזולוציה
+ בתדר כאשר הסיגנל לא מחליף תא תדר בכל חלון )רזולוציה בזמן גבוהה מדי(.
+ ולכן חלון אופטימלי הוא 
+\begin_inset Formula $\Delta T=\sqrt{\frac{c}{f_{src}g}}\approx0.07(sec)\,\Rightarrow\, N=f_{s}\Delta T\approx3100\approx4096=2^{12}$
+\end_inset
+
+ 
+\end_layout
+
 \begin_layout Section*
 ניסוי
 \family roman
