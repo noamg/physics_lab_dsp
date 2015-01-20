@@ -346,27 +346,62 @@ name "doppler_2D"
 \end_layout
 
 \begin_layout Section*
-אנליזת פורייה נועפ
+אנליזת פורייה נועם
 \end_layout
 
 \begin_layout Standard
-העבודה בציר התדר נוחה ואף הכרחית ליישומים מסויימים: סינון רעשים לא רצויים
- מהקלטת אודיו, דחיסת מידע, חישוב תבניות התאבכות וכו'.
+בעזרת אנליזת פורייה ניתן לתאר ולנתח תופעות מחזוריות )גלי קול, גלי רדיו וכו'(.
+ באופן טבעי, אנחנו מתארים פונקציה )סיגנל( 
+\begin_inset Formula $g(t)$
+\end_inset
+
+לפי הערך שלה בכל נקודה 
+\begin_inset Formula $t$
+\end_inset
+
+.
+ באנליזת פוריה נציג אותה בתור סכום של פונקציות מחזוריות 
+\begin_inset Formula $exp(i\omega t)$
+\end_inset
+
+.
+ כאשר מתארים פונקציה הנתונה על תחום סופי, ב- 
+\begin_inset Formula $N$
+\end_inset
+
+דגימות דיסקרטיות במרווחים 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+, ההצגה נתונה לפי טור פורייה בדיד:
+\begin_inset Formula 
+\[
+t_{m}=m\Delta T,f_{n}=n\frac{1}{N\Delta T}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-אנו מכירים פירוק של פונקציות לבסיס של קוסינוסים וסינוסים על ידי טור פורייה,
- עבור פונקציות מחזוריות, וטרנספורם פורייה, עבור פונקציות כלליות.
-\end_layout
+\begin_inset Formula 
+\[
+g(t_{m})=\sum_{n=0}^{N-1}\frac{1}{N}G(f_{n})\exp(i2\pi f_{n}t_{m})
+\]
 
-\begin_layout Standard
-כדי לעבד בצורה זאת כל פונקציה, גם כזאת שאינה נתונה לנו בצורה מפורשת, נשתמש
- במחשב שיחשב בשבילנו את הפירוק הספקטרלי ויבצע את כל המניפולציות.
-\end_layout
+\end_inset
 
-\begin_layout Standard
-רציף.
- בסיס סינוסים וקוסינוסים
+
+\begin_inset Formula 
+\[
+G(f_{n})=\sum_{m=0}^{N-1}g(t_{m})\exp(i2\pi f_{n}t_{m})
+\]
+
+\end_inset
+
+באמצעות תיאור פונקציה בהצגת פוריה, ניתן לסנן רעשים בתדרים רחוקים מהתדר של
+ הסיגנל שמעניינת אותנו.
 \end_layout
 
 \begin_layout Subsection*
