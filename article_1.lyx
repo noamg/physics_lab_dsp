@@ -1511,8 +1511,17 @@ status open
 \begin_inset Formula $\omega=\dot{\theta}\approx Const$
 \end_inset
 
+ומכאן 
+\begin_inset Formula $\theta(t)=\omega t$
+\end_inset
+
 .
- אנו מודדים את 
+ תחת בחירת הפרמטרים בניסוי: 
+\begin_inset Formula $a_{c}=\omega^{2}R>>g$
+\end_inset
+
+.
+ אנו מודדים את הסיגנל המתקבל במיקרופון 
 \begin_inset Formula $sig(t)$
 \end_inset
 
@@ -1521,26 +1530,98 @@ status open
 \begin_inset Formula $\omega$
 \end_inset
 
- , המתבטאת באיפנון עוצמה )המושפעת מהמרחק בין המיקרופון לרמקול(, ואיפנון
- תדר )המהירות הרדיאלית תכלומר: 
-\begin_inset Formula $v_{microphone}=v=R\omega$
+ , המתבטאת באיפנון עוצמה 
+\begin_inset Formula $A(\theta(t))$
 \end_inset
 
-.
- 
+ )המושפעת מהמרחק בין המיקרופון לרמקול(, ואיפנון תדר 
+\begin_inset Formula $f(\theta(t))$
+\end_inset
+
+ )בגלל שינוי היטל המהירות על המהירות הרדיאלית, ובגלל אפקט דופלר(.
 \end_layout
 
 \begin_layout Standard
-תחת בחירת הפרמטרים בניסוי: 
-\begin_inset Formula $a_{c}=\omega^{2}R>>g$
-\end_inset
-
-.
- תחת הקירוב 
+תחת הקירוב 
 \begin_inset Formula $R<<L$
 \end_inset
 
-נקבל:
+נקבל: 
+\begin_inset Formula $v_{r}=vsin(\theta)=R\omega sin(\theta)$
+\end_inset
+
+.
+ ולכן ע"ס 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:doppler"
+
+\end_inset
+
+:
+\begin_inset Formula 
+\[
+\Delta f(\theta)=-\frac{f_{src}}{cR}\omega sin(\theta)\Rightarrow\Delta f(t)=-\frac{f_{src}}{cR}\omega sin(\omega t)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+כעת נוכל לנתח את 
+\begin_inset Formula $\Delta f(t)$
+\end_inset
+
+בתור סיגנל בפני עצמו.
+ למעשה, הוא סיגנל מחזורי.
+ ע"י גילוי פאזה נקבל 
+\begin_inset Formula $\phi_{\Delta f}(t)=\omega t$
+\end_inset
+
+וע"י רגרסיה לינארית נוכל לחלץ את 
+\begin_inset Formula $\omega$
+\end_inset
+
+, וגם לתקף את הקירוב 
+\begin_inset Formula $\omega=\dot{\theta=Const}$
+\end_inset
+
+.
+ ע"י גילוי 
+\begin_inset Formula $AM$
+\end_inset
+
+ נקבל 
+\begin_inset Formula $A_{\Delta f}=\frac{f_{src}}{cR}$
+\end_inset
+
+ ממנו נחלץ את 
+\begin_inset Formula $c$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+ללא הקירוב נסמן 
+\begin_inset Formula $\delta=\frac{R}{L}$
+\end_inset
+
+ונקבל תיקון לנוסחאות הנ"ל:
+\begin_inset Formula 
+\[
+v_{r}=-R\omega sin(\theta)Q(\theta),Q(\theta)=\frac{-2cos(\theta)\delta+1}{\sqrt{1+\delta^{2}-2cos(\theta)\delta}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+<<< אולי ניתוח אחר.?? כנראה שלא יהיה זמן.
 \end_layout
 
 \begin_layout Standard
@@ -1710,6 +1791,18 @@ status open
 3
 \numeric off
 ?
+\end_layout
+
+\begin_layout Standard
+ספקטוגרמה של רחוק רחוק
+\end_layout
+
+\begin_layout Standard
+להראות גילוי פאזה בתור הוכחה לקצב הסיבוב הקבוע
+\end_layout
+
+\begin_layout Standard
+להראות גילוי עצמה
 \end_layout
 
 \begin_layout Part*
