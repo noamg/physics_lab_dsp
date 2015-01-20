@@ -1457,12 +1457,35 @@ status open
 \end_inset
 
 .
- התאוצה המרכזית הינה 
+ אנו מודדים את 
+\begin_inset Formula $sig(t)$
+\end_inset
+
+ כמו בניסויים הקודמים.
+ המערכת מקיימת מחזוריות של 
+\begin_inset Formula $\omega$
+\end_inset
+
+ , המתבטאת באיפנון עוצמה )המושפעת מהמרחק בין המיקרופון לרמקול(, ואיפנון
+ תדר )המהירות הרדיאלית תכלומר: 
+\begin_inset Formula $v_{microphone}=v=R\omega$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+תחת בחירת הפרמטרים בניסוי: 
 \begin_inset Formula $a_{c}=\omega^{2}R>>g$
 \end_inset
 
 .
-  
+ תחת הקירוב 
+\begin_inset Formula $R<<L$
+\end_inset
+
+נקבל:
 \end_layout
 
 \begin_layout Standard
