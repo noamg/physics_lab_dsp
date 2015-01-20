@@ -1241,8 +1241,12 @@ name "free_fall"
 \end_layout
 
 \begin_layout Standard
-מקלט בנפילה חופשית, בהסחה אופקית, למעשה תנועה דו ממדית.
- ]ציור סכמטי - איור
+מטרת ניסוי זה לתקף את אפקט דופלר עבור תנועה דו ממדית, ולמדוד בנפרד את 
+\begin_inset Formula $g,c$
+\end_inset
+
+.
+ בדומה לניסוי
 \family roman
 \series medium
 \shape up
@@ -1267,13 +1271,36 @@ name "free_fall"
 \uwave default
 \noun default
 \color inherit
-5
+1
+\numeric off
+, בניסוי זה המיקרופון בנפילה חופשית אנכית, אך על ישר הנמצא בהסחה אופקית
+ 
+\begin_inset Formula $d$
+\end_inset
+
+ ביחס למיקרופון )
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "free_fall"
+
+\end_inset
+
+ בצד שמאל(.
+ ידיעת גודל בעל ממד אורך 
+\begin_inset Formula $d$
+\end_inset
+
+ תאפשר מדידה נפרדת של 
+\begin_inset Formula $g,c$
+\end_inset
+
+.
+ כמו בניסוי
 \family roman
 \series medium
 \shape up
 \size normal
 \emph off
-\numeric off
 \bar no
 \strikeout off
 \uuline off
@@ -1286,16 +1313,28 @@ name "free_fall"
 \shape default
 \size default
 \emph default
+\numeric on
 \bar default
 \strikeout default
 \uuline default
 \uwave default
 \noun default
 \color inherit
-ב'[
+1
+\numeric off
+, מתוך 
+\begin_inset Formula $sig(t)$
+\end_inset
+
+מחשבים את 
+\begin_inset Formula $f_{ob}(t)$
+\end_inset
+
+.
+ ע"ס המהירות הרדיאלית, וקינמטיקה של נפילה חופשית ממנוחה: 
 \begin_inset Formula 
 \[
-v_{r}=v_{y}\left(t\right)\cdot\sin\left(\theta\right)
+v_{r}=v_{y}\left(t\right)\cdot\sin\left(\theta\right),tg(\theta)=\frac{y}{d}
 \]
 
 \end_inset
@@ -1303,7 +1342,7 @@ v_{r}=v_{y}\left(t\right)\cdot\sin\left(\theta\right)
 
 \begin_inset Formula 
 \[
-\Delta f=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}
+y=y_{0}-\frac{1}{2}gt^{2}
 \]
 
 \end_inset
@@ -1312,25 +1351,30 @@ v_{r}=v_{y}\left(t\right)\cdot\sin\left(\theta\right)
 \end_layout
 
 \begin_layout Standard
-קינמטיקה נוסחאות.
- עקומה צפויה ב- ______
-\end_layout
+וע"ס 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:doppler"
 
-\begin_layout Standard
-אולי בתקווה - ניתוח בסיסי )מבוסס על משרדת תדר / שיפוע עקומת תדר / נקודת
- מקסימום בהסחת התדר(
-\end_layout
+\end_inset
 
-\begin_layout Standard
-התאמת עקומה יותר מורכבת - מוצאים את 
-\begin_inset Formula $g$
+נקבל קשר בין הסחת דופלר לזמן: 
+\begin_inset Formula 
+\[
+f_{ob}(t)-f_{src}=\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}
+\]
+
 \end_inset
 
 
-\begin_inset Formula $c$
+\end_layout
+
+\begin_layout Standard
+באמצעות התאמת עקומה קיבלנו חישוב של הפרמטרים החופשיים 
+\begin_inset Formula $g,c$
 \end_inset
 
-בנפרד.
+.
 \end_layout
 
 \begin_layout Section*
@@ -1365,10 +1409,6 @@ v_{r}=v_{y}\left(t\right)\cdot\sin\left(\theta\right)
 \end_layout
 
 \begin_layout Standard
-בניסוי השלישי
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1399,6 +1439,33 @@ status open
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Standard
+מטרת ניסוי זה למדוד את 
+\begin_inset Formula $c$
+\end_inset
+
+באופן בלתי תלוי ב- 
+\begin_inset Formula $g$
+\end_inset
+
+.
+ המקרופון נקשר בחוט ומאולץ לנוע בתנועה מעגלית במהירות זוויתית 
+\begin_inset Formula $\omega=\dot{\theta}\approx Const$
+\end_inset
+
+.
+ התאוצה המרכזית הינה 
+\begin_inset Formula $a_{c}=\omega^{2}R>>g$
+\end_inset
+
+.
+  
+\end_layout
+
+\begin_layout Standard
 סיבוב המקלט )רחוק מהמשדר וקרוב לו(, ניתוח של אפנוני העוצמה והתדר, יש רדיוס
  סיבוב ולכן מידה של אורך, אולי גם שינוי המרחקים ממרכז הסיבוב.
 \end_layout
@@ -1615,6 +1682,11 @@ status open
 
 \begin_layout Standard
 <<< התאמה ריבועית לפאזה - אולי לנספח?
+\end_layout
+
+\begin_layout Standard
+נספח: אולי בתקווה - ניתוח בסיסי )מבוסס על משרדת תדר / שיפוע עקומת תדר /
+ נקודת מקסימום בהסחת התדר(
 \end_layout
 
 \end_body
