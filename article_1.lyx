@@ -129,6 +129,9 @@ x
 ( דרך נוספת להסתכל על התופעה: קצב הקליטה גדול מקצב השידור, כיוון שהצופה
  "אוסף" חזיתות גל נוספות מהמרחק הקטן בין המקור לצופה.
  תופעה דומה מקבלים עבור התקרבות, תופעה דומה עבור צופה בתנועה.
+\end_layout
+
+\begin_layout Standard
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -146,11 +149,11 @@ status open
 \align center
 \begin_inset Formula 
 \begin{equation}
-f_{ob}=f_{src}\frac{c+v_{ob}}{c-v_{src}}\Rightarrow\Delta f=f_{src}\frac{v_{rel}}{c-v_{src}}\begin{array}[t]{c}
+f_{ob}=f_{src}\frac{c+v_{ob}}{c-v_{src}}\Rightarrow f_{ob}-f_{src}=\Delta f=f_{src}\frac{v_{rel}}{c-v_{src}}\begin{array}[t]{c}
 \approx\\
 \uparrow\\
 v_{src}\ll c
-\end{array}f_{src}\frac{v_{rel}}{c}
+\end{array}f_{src}\frac{v_{rel}}{c}\label{eq:doppler}
 \end{equation}
 
 \end_inset
@@ -178,7 +181,15 @@ v_{src}\ll c
 \backslash
 הצופה
 \backslash
-כוללת בהתאמה )חיובית בהתקרבות(
+כוללת בהתאמה )מהירות מוגדרת חיובית לכיוון התקרבות המקור והצופה(
+\end_layout
+
+\begin_layout Plain Layout
+במערכות בהן 
+\begin_inset Formula $v_{src<<}c$
+\end_inset
+
+מבצעים את הקירוב לעיל.
 \end_layout
 
 \begin_layout Plain Layout
@@ -222,6 +233,16 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+המחשה חזותית של אפקט דופלר במקרה של מקור בתנועה וצופה נייך.
+ המקור משדר שתי חזיתות גל )לחילופין - פולסים( בהפרש זמן של זמן מחזור שידור.
+ המקור קולט אותן בהפרש זמן של זמן מחזור קליטה.
+ הקשר בין תדירות השידור ותדירות הקליטה נתון לפי נוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:doppler"
+
+\end_inset
+
 
 \end_layout
 
@@ -231,17 +252,52 @@ status open
 \end_layout
 
 \begin_layout Standard
-ווום של מכוניות
+דוגמא לאפקט דופלר בחיי היומיום: כאשר מכונית נוסעת היא יוצרת רעש מהמנוע שלה.
+ כאשר המכונית עוקפת צופה נייך, היא עוברת מהתקרבות להתרחקות.
+ כלומר, הצופה שומע הסטה בתדר של הרעש שהוא שומע.
 \end_layout
 
 \begin_layout Standard
-קירוב עצמים איטיים
+כאשר המקור או הצופה נמצאים בתאוצה 
+\begin_inset Formula $a$
+\end_inset
+
+, נוסחאת אפקט דופלר משתנה.
+ אך כאשר 
+\begin_inset Formula $aT<<v$
+\end_inset
+
+נוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:doppler"
+
+\end_inset
+
+ מתקיימת תוך התחשבות בשינוי המהירות 
+\begin_inset Formula $v=v(t)$
+\end_inset
+
+)משמעות הקירוב היא שהתאוצה משנה את המהירות במהלך הזמן, אך שהשפעתה על ההעתק
+ של המקור בזמן מחזור זניחה לעומת השפעת המהירות על ההעתק(.
 \end_layout
 
 \begin_layout Standard
-תנועה דו ממדית.
- אפקט דופלר לפי מהירות רדיאלית - היטל מהירות )הסתה( תמונת המחשה - תנועה
- מעגלית / סתם תמונה שממחישה את ההיטל הרדיאלי של המהירות
+בתנועה דו ממדית רכיב המהירות הרלוונטי לדופלר הוא רכיב המהירות הרדיאלי 
+\begin_inset Formula $v_{r}$
+\end_inset
+
+.
+ בהנחה שהגל מתפשט בצורה כדורית, מהירות יחסית משיקית בין המקור לצופה לא מתקיימת
+ על הציר של התפשטות הגל, ולכן לא יוצרת אפקט.
+ ראו 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "doppler_2D"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -249,10 +305,6 @@ status open
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -268,6 +320,17 @@ status open
 
 \end_layout
 
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "doppler_2D"
+
+\end_inset
+
+בתנועה דו ממדית רכיב המהירות הרלוונטי לדופלר הוא רכיב המהירות הרדיאלי 
+\begin_inset Formula $v_{r}$
 \end_inset
 
 
