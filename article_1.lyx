@@ -374,8 +374,8 @@ A2D
 \lang english
 Analog to Digital
 \lang hebrew
-( ש"דוגמים": ממירים אות חשמלי רציף לרצף של עוצמות בזמנים בדידים, ולרוב גם
- במרווח קבוע )גם העוצמות בדידות(.
+( ש"דוגמים": ממירים אות חשמלי רציף לסדרה של עוצמות בזמנים בדידים )גם העוצמות
+ בדידות(, ולרוב גם במרווח זמן קבוע.
  לדוגמא, כרטיס קול במחשב שממיר אות ממיקרופון למידע שנכנס לקובץ אודיו.
 \end_layout
 
@@ -409,11 +409,122 @@ aliasing
 \noun default
 \color inherit
 בלעז( שבה, כתוצאה מחוסר המידע על האות בין זמן דגימה אחד לשני נוצרת אי וודאות
- בתדרים שהיו באות המקורי )לפני הדגימה(.
- והשניה היא רזולוצית תדר מוגבלת שנובעת ממשך הזמן הסופי שבו אנחנו מתעדים
- את האות )על פני משכי זמן קצרים מספיק קשה להבדיל בין שני סינוסים בתדירויות
- קרובות(.
+ בתדרים שהיו באות הרציף המקורי )כפי שמודגם באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
  
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+X
+\lang hebrew
+(, החסם לתדירות הכי גבוהה אותה ניתן לשחזר נאמנה מדגימה הוא תדר נייקוויסט
+ )נוסחא
+\backslash
+משוואה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+, 
+\begin_inset Formula $f$
+\end_inset
+
+ הוא תדר האות המקורי, 
+\begin_inset Formula $f_{s/nyquist/observed}$
+\end_inset
+
+ הם תדר הדגימה/נייקוויסט/מתועד בהתאמה ו-
+\begin_inset Formula $n$
+\end_inset
+
+ הוא מספר (.
+ והשניה היא רזולוצית תדר מוגבלת שנובעת ממשך הזמן הסופי שבו אנחנו מתעדים
+ את האות )כפי שניתן לראות באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+, על פני משכי זמן קצרים מספיק קשה להבדיל בין שני סינוסים בתדירויות קרובות(.
+ 
+\begin_inset Formula 
+\begin{equation}
+f_{nyquist}=\frac{f_{s}}{2}\,\, f_{observed}=\left|f-nf_{s}\right|
+\end{equation}
+
+\end_inset
+
+
+\begin_inset Formula 
+\begin{equation}
+\Delta f=\frac{f_{nyquist}}{(N/2)}=\frac{f_{s}}{N}=\frac{1}{\Delta t\cdot N}=\frac{1}{T}
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -434,6 +545,43 @@ aliasing
 
 \begin_layout Standard
 תדר מינימלי )תמונה ונוסחא(
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/aliasing.jpg
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+אי הוודאות שנוצרת בדגימה איטית מפעמיים תדירות התופעה: שחזור של הגל לפי הנקודות
+ הדגומות לא נותן את האות המקורי.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
