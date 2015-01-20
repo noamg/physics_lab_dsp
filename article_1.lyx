@@ -1396,9 +1396,9 @@ v_{r}=v_{y}\left(t\right)\cdot\sin\left(\theta\right),tg(\theta)=\frac{y}{d}
 
 
 \begin_inset Formula 
-\[
-y=y_{0}-\frac{1}{2}gt^{2}
-\]
+\begin{equation}
+\Delta f_{doppler}=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}\label{היסט דופלר בזמן (עם מרחק אופקי)}
+\end{equation}
 
 \end_inset
 
@@ -1705,6 +1705,10 @@ v_{r}=-R\omega sin(\theta)Q(\theta),Q(\theta)=\frac{-2cos(\theta)\delta+1}{\sqrt
 - שני מימדים(
 \end_layout
 
+\begin_layout Standard
+כישלון עיבודים פשוטים?
+\end_layout
+
 \begin_layout Section*
 ניסוי
 \family roman
@@ -1769,6 +1773,162 @@ v_{r}=-R\omega sin(\theta)Q(\theta),Q(\theta)=\frac{-2cos(\theta)\delta+1}{\sqrt
 \noun default
 \color inherit
 2
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "spectroExtr"
+
+\end_inset
+
+
+\begin_inset Graphics
+	filename for article/89-spectrogram-freqExtrap.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ספקטרוגרמה לדוגמא מנפילה של המיקרופון עם מרחק אופקי מהרמקול )ניסוי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+(, בקו כחול על גבי הספקטרוגרמה תדר מקס' בכל פרוסת זמן )המידע שנכנס להתאמת
+ העקומה(
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/fit example.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "curveFitHorDist"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+מציאת נקודות קיצון לא נתן תוצאות טובות )לא עקביות(.
+\end_layout
+
+\begin_layout Standard
+התאמת עקומה ל-
+\begin_inset Formula $\Delta f_{dopple}\left(t\right)$
+\end_inset
+
+, דווקא כן.
+ ע"י הוצאת התדר המקס' מספקטרוגרמה )איור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "spectroExtr"
+
+\end_inset
+
+( והתאמה לנוסחא 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "היסט דופלר בזמן (עם מרחק אופקי)"
+
+\end_inset
+
+ כאשר פותרים עבור 
+\begin_inset Formula $c,\, g$
+\end_inset
+
+ )איור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "curveFitHorDist"
+
+\end_inset
+
+( קיבלנו ערכים ממוצעים של 
+\begin_inset Formula $g=$
+\end_inset
+
+ 
 \end_layout
 
 \begin_layout Standard
