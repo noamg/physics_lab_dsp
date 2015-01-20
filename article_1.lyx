@@ -1109,10 +1109,14 @@ reference "eq:doppler"
 
 \end_inset
 
- נקבל שהסחת דופלר לינארית בזמן:
+ נקבל שהסחת דופלר לינארית בזמן, ונחלץ את 
+\begin_inset Formula $\frac{g}{c}$
+\end_inset
+
+ע"י רגרסיה לינארית:
 \begin_inset Formula 
 \[
-\frac{\Delta f}{f_{src}}=\frac{v_{rel}}{c}=\frac{v(t)}{c}=\frac{g}{c}t\Rightarrow f_{ob}-f_{src}=\Delta f=f_{src}\frac{g}{c}t
+\frac{\Delta f}{f_{src}}=\frac{v_{rel}}{c}=\frac{v(t)}{c}=\frac{g}{c}t\Rightarrow f_{ob}(t)-f_{src}=\Delta f(t)=f_{src}\frac{g}{c}t
 \]
 
 \end_inset
@@ -1127,10 +1131,6 @@ reference "eq:doppler"
 \end_inset
 
 (
-\end_layout
-
-\begin_layout Standard
-<<< התאמה ריבועית לפאזה - אולי לנספח?
 \end_layout
 
 \begin_layout Subsection*
@@ -1178,42 +1178,12 @@ name "free_fall"
 \end_layout
 
 \begin_layout Standard
-מהירות מקסימלית - , קירוב עצמים איטיים
+<<<דן:
 \end_layout
 
 \begin_layout Standard
 מהירות מינימלית מובחנת - רזולוציית מהירות - נובעת מרזולוציית תדר - נובעת
  ממשך דגימה עיבוד - המוגבל ע"י התאוצה )כמה זמן נשארים באותו תדר(
-\end_layout
-
-\begin_layout Standard
-למה זה אמור לעבוד?: קינמטיקה, עקומה צפויה של מהירות בזמן, אפקט דופלר - עקומה
- צפויה בספקטוגרמה /
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\begin_inset Formula $FM$
-\end_inset
-
-/ 
-\begin_inset Formula $PM$
-\end_inset
-
-.
- ]נוסחאות[
-\end_layout
-
-\begin_layout Standard
-רגרסיה לינארית / התאמת עקומה ריבועית
 \end_layout
 
 \begin_layout Section*
@@ -1641,6 +1611,10 @@ status open
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+<<< התאמה ריבועית לפאזה - אולי לנספח?
 \end_layout
 
 \end_body
