@@ -83,7 +83,7 @@
 \end_layout
 
 \begin_layout Section*
-אפקט דופלר
+אפקט דופלר נועם
 \end_layout
 
 \begin_layout Standard
@@ -146,7 +146,11 @@ status open
 \align center
 \begin_inset Formula 
 \begin{equation}
-f_{ob}=f_{src}\frac{c+v_{ob}}{c-v_{src}}\Rightarrow\Delta f=f_{src}\frac{v_{rel}}{c-v_{src}}\underset{v_{src}\ll c}{\approx}f_{src}\frac{v_{rel}}{c}
+f_{ob}=f_{src}\frac{c+v_{ob}}{c-v_{src}}\Rightarrow\Delta f=f_{src}\frac{v_{rel}}{c-v_{src}}\begin{array}[t]{c}
+\approx\\
+\uparrow\\
+v_{src}\ll c
+\end{array}f_{src}\frac{v_{rel}}{c}
 \end{equation}
 
 \end_inset
@@ -279,12 +283,12 @@ status open
 \end_layout
 
 \begin_layout Section*
-אנליזת פורייה
+אנליזת פורייה נועפ
 \end_layout
 
 \begin_layout Standard
 העבודה בציר התדר נוחה ואף הכרחית ליישומים מסויימים: סינון רעשים לא רצויים
- מהקלטת אודיו, דחיסת מידע, חישוב תכניות התאבכות וכו'.
+ מהקלטת אודיו, דחיסת מידע, חישוב תבניות התאבכות וכו'.
 \end_layout
 
 \begin_layout Standard
@@ -303,7 +307,7 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-דגימה
+דגימה דן
 \end_layout
 
 \begin_layout Standard
@@ -413,6 +417,10 @@ aliasing
 \end_layout
 
 \begin_layout Standard
+לתמצת להוסיף נוסחאות
+\end_layout
+
+\begin_layout Standard
 עולם דיסקרטי
 \end_layout
 
@@ -421,11 +429,11 @@ aliasing
 \end_layout
 
 \begin_layout Standard
-תדירות נייקוויסט )תמונה(
+תדירות נייקוויסט )תמונה ונוסחא(
 \end_layout
 
 \begin_layout Standard
-תדר מינימלי )תמונה(
+תדר מינימלי )תמונה ונוסחא(
 \end_layout
 
 \begin_layout Standard
@@ -433,10 +441,6 @@ aliasing
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \align center
@@ -548,15 +552,7 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-נייקוויסט )
-\lang english
-FFT
-\lang hebrew
-(
-\end_layout
-
-\begin_layout Subsection*
-אפנונים וגילויים
+אפנונים וגילויים דן
 \end_layout
 
 \begin_layout Standard
@@ -966,7 +962,7 @@ data
 \end_layout
 
 \begin_layout Subsection*
-ספקטרוגרמה
+ספקטרוגרמה נועם
 \end_layout
 
 \begin_layout Standard
@@ -1008,6 +1004,27 @@ data
 \noun default
 \color inherit
 1
+\family roman
+\shape up
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\shape default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+נועם
 \end_layout
 
 \begin_layout Standard
@@ -1165,6 +1182,31 @@ status open
 \noun default
 \color inherit
 2
+\family roman
+\series bold
+\shape up
+\size larger
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+דן
 \end_layout
 
 \begin_layout Standard
@@ -1222,7 +1264,7 @@ status open
 \color inherit
 3
 \numeric off
-?
+? נועם
 \end_layout
 
 \begin_layout Standard
@@ -1430,6 +1472,10 @@ status open
 
 \begin_layout Standard
 שימוש בדיסיפלינה עיבוד אותות תיקוף אפקט דופלר, מדידת קבועים
+\end_layout
+
+\begin_layout Standard
+חיכוך עם האוויר? הערכת שגיאה
 \end_layout
 
 \end_body
