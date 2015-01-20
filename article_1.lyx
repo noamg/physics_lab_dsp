@@ -821,6 +821,15 @@ name "fig:min_freq_example"
 \end_layout
 
 \begin_layout Standard
+פונקציה מחזורית טהורה ניתנת להצגה ע"י אמפליטודה קבועה ופאזה לינארית לזמן:
+ 
+\begin_inset Formula $sig(t)=Asin(\phi(t)),\phi(t)=2\pi ft$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
 )תמונה ותמונה( בהינתן אות בתחום תדר מוגבל כלשהו 
 \begin_inset Formula $sig\left(t\right)=A\left(t\right)\cdot e^{i\left(2\pi\tilde{f}\left(t\right)t+\phi\left(t\right)\right)}$
 \end_inset
