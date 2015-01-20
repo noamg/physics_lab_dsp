@@ -1485,6 +1485,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:circuler_movement"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1507,7 +1514,14 @@ status open
 \end_inset
 
 .
- המקרופון נקשר בחוט ומאולץ לנוע בתנועה מעגלית במהירות זוויתית 
+ כפי שרואים ב
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:circuler_movement"
+
+\end_inset
+
+המקרופון נקשר בחוט ומאולץ לנוע בתנועה מעגלית במהירות זוויתית 
 \begin_inset Formula $\omega=\dot{\theta}\approx Const$
 \end_inset
 
