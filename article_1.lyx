@@ -211,10 +211,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -534,7 +530,7 @@ X
 \end_inset
 
  הוא תדר האות המקורי, 
-\begin_inset Formula $f_{s/nyquist/observed}$
+\begin_inset Formula $f_{s/nyq/observed}$
 \end_inset
 
  הם תדר הדגימה/נייקוויסט/מתועד בהתאמה ו-
@@ -574,7 +570,7 @@ X
  
 \begin_inset Formula 
 \begin{equation}
-f_{nyquist}=\frac{f_{s}}{2}\,\, f_{observed}=\left|f-nf_{s}\right|
+f_{nyq}=\frac{f_{s}}{2}\,\, f_{observed}=\left|f_{nyq}-\mod\left(f+f_{nyq},\, f_{s}\right)\right|
 \end{equation}
 
 \end_inset
@@ -582,7 +578,7 @@ f_{nyquist}=\frac{f_{s}}{2}\,\, f_{observed}=\left|f-nf_{s}\right|
 
 \begin_inset Formula 
 \begin{equation}
-\Delta f=\frac{f_{nyquist}}{(N/2)}=\frac{f_{s}}{N}=\frac{1}{\Delta t\cdot N}=\frac{1}{T}
+\Delta f=\frac{f_{nyq}}{(N/2)}=\frac{f_{s}}{N}=\frac{1}{\Delta t\cdot N}=\frac{1}{T}
 \end{equation}
 
 \end_inset
@@ -626,6 +622,8 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename for article/aliasing.jpg
+	lyxscale 70
+	scale 70
 
 \end_inset
 
@@ -763,128 +761,36 @@ status open
 \end_layout
 
 \begin_layout Subsection*
-אפנונים וגילויים דן
+גילויים דן
 \end_layout
 
 \begin_layout Standard
-)תמונה ותמונה( בכדי להרכיב מידע על אותות בתדרים שרירותיים, להלן "גל נושא",
- )שנקבעים, למשל, על פי הקצאה של תקן בינלאומי לתקשורת סלולרית( נשתמש באפנונים
- - שינויים לאות שתלויים במידע אותו נרצה להעביר.
- שני האפנונים הכי בסיסיים )ומוכרים לנו מהרדיו בבית( הם אפנון
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
+)תמונה ותמונה( בהינתן אות בתחום תדר מוגבל כלשהו 
+\begin_inset Formula $sig\left(t\right)=A\left(t\right)\cdot e^{i\left(2\pi\tilde{f}\left(t\right)t+\phi\left(t\right)\right)}$
+\end_inset
+
+ נרצה לדעת איך העוצמה, הפאזה והתדר הרגעי שלו משתנים בזמן, לשם כך נשתמש בגילויים.
+ גילוי עוצמה )
 \lang english
 AM
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
 \lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-ו-
-\lang english
-FM
-\lang hebrew
+( יחזיר לנו את עוצמת האות ברגע נתון 
+\begin_inset Formula $A\left(t\right)$
+\end_inset
+
 .
- באפנון
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
+ דרך פשוטה לעשות זאת היא על ידי לקיחת ערך מוחלט של האות ומיצוע על זמן ארוך
+ ממחזור הגל שבעוצמתו מעוניים.>>>אם יש זמן להוסיף תמונות )פאזור( אולי להרחיב
+ הסבר<<< גילוי פאזה )
 \lang english
-AM
+PM
 \lang hebrew
-,
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-Amplitude Modulation
-\lang hebrew
-, אות המידע )שמכיל תדירויות קטנות בהרבה מתדירות הגל הנושא( קובע את אמפליטודת
- הגל הנושא: 
-\begin_inset Formula $signal(t)=\left(A_{0}+\Delta A\cdot data(t)\right)\cdot\sin\left(2\pi f_{c}t+\phi\right)$
+( יחזיר לנו את הפאזה של האות ברגע נתון 
+\begin_inset Formula $2\pi\tilde{f}\left(t\right)t+\phi\left(t\right)$
 \end_inset
 
-, כאשר
+.
+ ועתה, אם נגדיר תדר רגעי בתור הנגזרת של הפאזה אז גילוי תדר
 \family roman
 \series medium
 \shape up
@@ -908,256 +814,16 @@ Amplitude Modulation
 \uwave default
 \noun default
 \color inherit
-\lang english
-signal
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-הוא האות המשודר )כפונ' של הזמן(,
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-data
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-היא פונ' המידע בזמן, 
-\begin_inset Formula $f_{c}$
-\end_inset
-
- הוא תדר הגל הנושא, 
-\begin_inset Formula $A_{0}$
-\end_inset
-
-היא אמפליטודה קבועה של האות, 
-\begin_inset Formula $\Delta A$
-\end_inset
-
- עוצמת האפנון ו-
-\begin_inset Formula $\phi$
-\end_inset
-
- זווית מופע שרירותית.
- באפנון
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
+)
 \lang english
 FM
 \lang hebrew
-,
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-Frequency Modulation
-\lang hebrew
-, אות המידע קובע את ההסטה של הגל הנושא מהתדר המרכזי: 
-\begin_inset Formula $signal(t)=A\cdot\sin\left(2\pi\left(f_{c}t+\Delta f\overset{t}{\int}data(\tau)d\tau\right)+\phi\right)$
+( יחזיר לנו בדיוק את זה.
+ קל לראות שעבור 
+\begin_inset Formula $\tilde{f}\left(t\right),\,\phi\left(t\right)$
 \end_inset
 
-, כאשר 
-\lang english
-signal
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-הוא האות המשודר )כפונ' של הזמן(,
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-data
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\lang hebrew
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-היא פונ' המידע בזמן, 
-\begin_inset Formula $f_{c}$
-\end_inset
-
- הוא התדר המרכזי של הגל הנושא, 
-\begin_inset Formula $A$
-\end_inset
-
-היא אמפליטודת האות, 
-\begin_inset Formula $\Delta f$
-\end_inset
-
- עוצמת האפנון ו-
-\begin_inset Formula $\phi$
-\end_inset
-
- זווית מופע שרירותית .
-\end_layout
-
-\begin_layout Standard
-עתה שהרכבנו מידע על אותות נרצה גם לגלות אותם חזרה מהאות המאופנן.
- 
+ קבועים בזמן התדר הרגעי הוא התדר של האות.
 \end_layout
 
 \begin_layout Standard
@@ -1170,6 +836,10 @@ data
 \end_inset
 
  <<<< תמונה 
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Subsection*
