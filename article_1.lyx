@@ -838,10 +838,6 @@ FM
  <<<< תמונה 
 \end_layout
 
-\begin_layout Standard
-
-\end_layout
-
 \begin_layout Subsection*
 ספקטרוגרמה נועם
 \end_layout
@@ -1092,7 +1088,73 @@ status open
 
 \begin_layout Standard
 מקלט בנפילה חופשית, בהסחה אופקית, למעשה תנועה דו ממדית.
- ]ציור סכמטי[
+ ]ציור סכמטי - איור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ב'[
+\begin_inset Formula 
+\[
+v_{r}=v_{y}\left(t\right)\cdot\sin\left(\theta\right)
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\Delta f=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}
+\]
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
