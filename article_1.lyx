@@ -2,7 +2,7 @@
 \lyxformat 413
 \begin_document
 \begin_header
-\textclass article
+\textclass heb-article
 \use_default_options true
 \maintain_unincluded_children false
 \language hebrew
@@ -1325,7 +1325,7 @@ status open
 
 \begin_layout Standard
 מהירות מינימלית מובחנת - רזולוציית מהירות - נובעת מרזולוציית תדר - נובעת
- ממשך דגימה / עיבוד - מוגבלת ע"ׁי תאוצה )כמה זמן נשארים באותה מהירות(
+ ממשך דגימה עיבוד - המוגבל ע"י התאוצה )כמה זמן נשארים באותו תדר(
 \end_layout
 
 \begin_layout Standard
