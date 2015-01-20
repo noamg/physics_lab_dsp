@@ -161,6 +161,17 @@ v_{src}\ll c
 
 \end_layout
 
+\begin_layout Plain Layout
+\begin_inset Formula 
+\[
+\frac{\Delta f}{f_{src}}=\frac{v_{rel}}{c}
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Description
 משוואה)
 \numeric on
@@ -827,6 +838,31 @@ name "fig:min_freq_example"
 \end_inset
 
 .
+ יש פונקציות לא מחזוריות, שניתן לתאר בצורה דומה, אך שבה 
+\begin_inset Formula $A,f$
+\end_inset
+
+ אינם בהכרח קבועים.
+ למשל, אם מקור הגל משנה את עצמת הגל, נקבל 
+\begin_inset Formula $A=A(t)$
+\end_inset
+
+.
+ ניתן לתאר גם סיגנל שבו הפאזה לא לינארית לזמן, ואז נגדיר: 
+\begin_inset Formula $f(t)=\dot{\phi(t)\neq Const}$
+\end_inset
+
+.
+ במובן מסוים כך אנו מתארים סיגנל לא מחזורי בתור מחזורי באופן רגעי, זה כלי
+ טוב לתיאור תופעות "מחזוריות רגעית" בעולם הפיסי.
+\end_layout
+
+\begin_layout Standard
+<<<תמונה איפנון עצמה
+\end_layout
+
+\begin_layout Standard
+<<< תמונה איפנון תדר 
 \end_layout
 
 \begin_layout Standard
@@ -834,7 +870,11 @@ name "fig:min_freq_example"
 \begin_inset Formula $sig\left(t\right)=A\left(t\right)\cdot e^{i\left(2\pi\tilde{f}\left(t\right)t+\phi\left(t\right)\right)}$
 \end_inset
 
- נרצה לדעת איך העוצמה, הפאזה והתדר הרגעי שלו משתנים בזמן, לשם כך נשתמש בגילויים.
+
+\end_layout
+
+\begin_layout Standard
+נרצה לדעת איך העוצמה, הפאזה והתדר הרגעי שלו משתנים בזמן, לשם כך נשתמש בגילויים.
  גילוי עוצמה )
 \lang english
 AM
@@ -889,18 +929,6 @@ FM
 \end_inset
 
  קבועים בזמן התדר הרגעי הוא התדר של האות.
-\end_layout
-
-\begin_layout Standard
-<<<< רעיון לפתח את זה: 
-\begin_inset Formula $Asin(2\pi f*t)$
-\end_inset
-
-<<< 
-\begin_inset Formula $A(t)sin(2\pi f$
-\end_inset
-
- <<<< תמונה 
 \end_layout
 
 \begin_layout Subsection*
@@ -992,8 +1020,24 @@ FM
 \end_inset
 
  )התדר נקבע ע"י מחולל אותות חיצוני(.
- הצופה הינו מיקרופון המחובר למחשב, ומקליט את הסיגנל האקוסטי.
- בכל שלבי הניסוי הרמקול היה נייך )ולכן הקירוב בנוסחא 
+ הצופה הינו מיקרופון המחובר למחשב, ומקליט את הסיגנל האקוסטי 
+\begin_inset Formula $sig(t)$
+\end_inset
+
+.
+ ע"י ניתוח ספקטוגרמה של 
+\begin_inset Formula $sig$
+\end_inset
+
+ומציאת התדר העיקרי בכל זמן נקבל את 
+\begin_inset Formula $f_{ob}(t)$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+בכל שלבי הניסוי הרמקול היה נייך )ולכן הקירוב בנוסחא 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:doppler"
@@ -1023,15 +1067,47 @@ reference "eq:doppler"
 \end_layout
 
 \begin_layout Standard
-הניסוי הראשון בוחן אפקט דופלר חד ממדי: המיקרופון נופל אנכית לעבר הרמקון
- )כפי שרואים בצד ימין של 
+הניסוי הראשון בוחן אפקט דופלר חד ממדי: המיקרופון נופל נפילה חופשית אנכית
+ לעבר הרמקול )כפי שרואים בצד ימין של 
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "free_fall"
 
 \end_inset
 
+(.
+\end_layout
+
+\begin_layout Standard
+בתנאי נפילה חופשית, וע"ס 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:doppler"
+
+\end_inset
+
+ נקבל שהסחת דופלר לינארית בזמן:
+\begin_inset Formula 
+\[
+\frac{\Delta f}{f_{src}}=\frac{v_{rel}}{c}=\frac{v(t)}{c}=\frac{g}{c}t\Rightarrow f_{ob}-f_{src}=\Delta f=f_{src}\frac{g}{c}t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+בניסוי זה אין כלל מדידות של גדלים הקשורים באורך, ולכן מובן שניתן לחשב רק
+ גדלים ללא ממד אורך )
+\begin_inset Formula $\frac{g}{c}$
+\end_inset
+
 (
+\end_layout
+
+\begin_layout Standard
+<<< התאמה ריבועית לפאזה - אולי לנספח?
 \end_layout
 
 \begin_layout Subsection*
@@ -1115,14 +1191,6 @@ name "free_fall"
 
 \begin_layout Standard
 רגרסיה לינארית / התאמת עקומה ריבועית
-\end_layout
-
-\begin_layout Standard
-מה מחלצים: 
-\begin_inset Formula $\frac{g}{c}$
-\end_inset
-
-)הערה - בגלל אנליזת ממדים, לא נוכל למדוד אורכים(
 \end_layout
 
 \begin_layout Section*
@@ -1535,6 +1603,21 @@ status open
 \begin_layout Standard
 תדר יותר גבוה - לקשר למציאת התדר המיטבי של המערכת.
  רזולוציה משתפרת עם התדר
+\end_layout
+
+\begin_layout Standard
+שיטות עיבוד אחרות.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $fm$
+\end_inset
+
+, 
+\begin_inset Formula $pm$
+\end_inset
+
+
 \end_layout
 
 \end_body
