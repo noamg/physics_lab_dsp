@@ -221,6 +221,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:doppler_example"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -289,7 +296,7 @@ reference "eq:doppler"
  ראו 
 \begin_inset CommandInset ref
 LatexCommand ref
-reference "doppler_2D"
+reference "fig:doppler_2D"
 
 \end_inset
 
@@ -321,7 +328,7 @@ status open
 
 \begin_inset CommandInset label
 LatexCommand label
-name "doppler_2D"
+name "fig:doppler_2D"
 
 \end_inset
 
@@ -655,6 +662,13 @@ status open
 \begin_inset Caption
 
 \begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:niquist_example"
+
+\end_inset
+
+
 \begin_inset Graphics
 	filename for article/aliasing.jpg
 	lyxscale 70
@@ -694,6 +708,13 @@ status open
 \begin_inset Graphics
 	filename for article/freq_resolution_comb.png
 	scale 73
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:min_freq_example"
 
 \end_inset
 
@@ -984,6 +1005,15 @@ reference "eq:doppler"
 \end_layout
 
 \begin_layout Standard
+כדי להדגיש את הסיגנל לעומת הרעש, בחרנו את התדר המיטבי של המיקרופון והרמקול:
+ 
+\begin_inset Formula $f_{src}=7[kHz]$
+\end_inset
+
+ )ראה דיון(.
+\end_layout
+
+\begin_layout Standard
 הניסוי הראשון בוחן אפקט דופלר חד ממדי: המיקרופון נופל אנכית לעבר הרמקון
  )כפי שרואים בצד ימין של 
 \begin_inset CommandInset ref
@@ -993,12 +1023,6 @@ reference "free_fall"
 \end_inset
 
 (
-\end_layout
-
-\begin_layout Standard
-<<<מציאת תדר מיטבי לרכיבים )תוספת בנספח
-\backslash
-דיון(
 \end_layout
 
 \begin_layout Subsection*
@@ -1483,6 +1507,25 @@ status open
 
 \begin_layout Standard
 חיכוך עם האוויר? הערכת שגיאה
+\end_layout
+
+\begin_layout Standard
+הדים התאבכות
+\end_layout
+
+\begin_layout Standard
+טיוב תוצאות.
+ מנוע לסיבוב בקצב אחיד.
+\end_layout
+
+\begin_layout Standard
+מיקרופון כדורי.
+ חיכוך אוויר.
+\end_layout
+
+\begin_layout Standard
+תדר יותר גבוה - לקשר למציאת התדר המיטבי של המערכת.
+ רזולוציה משתפרת עם התדר
 \end_layout
 
 \end_body
