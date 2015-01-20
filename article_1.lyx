@@ -1212,11 +1212,27 @@ data
 \end_layout
 
 \begin_layout Standard
-]תמונה גנרית[
+אנליזת פורייה הצגה של סיגנל בתור הרכבה של פונקציות בסיס מחזוריות בתדרים
+ מסוימים.
+ במערכות מסוימות מעניין לבחון באיזו מתכונת התדרים משתנים לאורך הזמן.
+ לצורך כך מחלקים את תחום הזמן למקטעים, וכל מקטע )שהוא למעשה סיגנל קצר( מציגים
+ באמצעות התדרים של הצגת פוריה.
 \end_layout
 
 \begin_layout Standard
-שינוי של נועם
+<<< איור
+\end_layout
+
+\begin_layout Standard
+ביישום בפועל משתמשים בשני עיבודים נוספים
+\end_layout
+
+\begin_layout Standard
+חפיפה
+\end_layout
+
+\begin_layout Standard
+זירו פדדינג
 \end_layout
 
 \begin_layout Part*
@@ -1274,45 +1290,47 @@ data
 \end_layout
 
 \begin_layout Standard
-ניסוי
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-0
-\numeric off
-: תנועה במהירות קבועה לתיקוף אפקט דופלר.
- קשה לעשות בלי חיכוך, ציוד מעבדה מתאים.
- נפילה חופשית יופי.
+בניסוי זה התמקדנו במדידת אפקט דופלר אקוסטי.
+ המקור הינו רמקול המשדר צליל בתדר קבוע 
+\begin_inset Formula $f_{src}$
+\end_inset
+
+ )התדר נקבע ע"י מחולל אותות חיצוני(.
+ הצופה הינו מיקרופון המחובר למחשב, ומקליט את הסיגנל האקוסטי.
+ בכל שלבי הניסוי הרמקול היה נייך )ולכן הקירוב בנוסחא 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:doppler"
+
+\end_inset
+
+מדויק לגמרי(, והמיקרופון זז לעומתו.
 \end_layout
 
 \begin_layout Standard
-מקלט בנפילה חופשית, תנועה חד ממדית.
- ]סיור סכמטי[
+באופן מיטבי הניסוי הבסיסי ביותר לתיקוף אפקט דופלר הוא של מהירות קבועה בין
+ המקור לצופה.
+ למשל: המיקרופון יהיה בעגלה שנעה במהירות קבועה.
+ אולם, בניסויים מסוג זה החיכוך יהיה משמעותי ויערב תופעה פיזיקלית אחרת קשה
+ לניתוח.
+ לכן, תיכננו ומימשנו מערכת ניסוי שבה החיכוך חלש, והמיקרופון נופל בנפילה
+ חופשית.
 \end_layout
 
 \begin_layout Standard
-מציאת תדר מיטבי לרכיבים )תוספת בנספח
+הניסוי הראשון בוחן אפקט דופלר חד ממדי: המיקרופון נופל אנכית לעבר הרמקון
+ )כפי שרואים בצד ימין של 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "free_fall"
+
+\end_inset
+
+(
+\end_layout
+
+\begin_layout Standard
+<<<מציאת תדר מיטבי לרכיבים )תוספת בנספח
 \backslash
 דיון(
 \end_layout
@@ -1338,6 +1356,13 @@ status open
 \begin_inset Graphics
 	filename for article/free_fall_vert&angle.png
 	scale 40
+
+\end_inset
+
+
+\begin_inset CommandInset label
+LatexCommand label
+name "free_fall"
 
 \end_inset
 
