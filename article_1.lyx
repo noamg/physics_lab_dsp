@@ -2276,6 +2276,54 @@ reference "curveFitHorDist"
 \end_layout
 
 \begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename for article/multipath_wtext.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:multipath spect"
+
+\end_inset
+
+דגימה של אות עם "רב-נתיב" חזק.
+ ניתן לראות, חוץ מההיסט שמתאים לצפוי )האות החזק - אדום כהה( גם אותו לא זניחים
+ בתדרים שונים שכמעט ומשלימים תמונה מראה של ההיסט הצפוי )היסט הפוך יתן החזר
+ מנקודה מעל המיקרופון(
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 בניסוי זה חקרנו את אפקט דופלר.
  תיקפנו אותו במקרה החד ממדי, והדו ממדי.
  מבחינה איכותית, התוצאות מתאימות לתיאוריה 
@@ -2300,28 +2348,35 @@ reference "curveFitHorDist"
  הרמקול, והמיקרופון מיועדים לשימוש בתחום תדרים מסוים, והם מגבירים תדרים
  מסוימים ומחלישים אחרים.
  לשם כל התחלנו את הניסוי בשידור המכסה באופן הדרגתי את כל התדרים, ובחרנו
- את התדר המיטבי ראה איור >>>דן<<<.
+ את התדר המיטבי >>דן: אין איור<<.
  דרך ברורה לטייב את תוצאות המדידה, היא להשתמש בציוד מדידה שמתאים לשימוש
  בתדר 
 \begin_inset Formula $f_{src}$
 \end_inset
 
- גבוה יותר )כיוון ששגיאת המדידה של כל המדידות קשורה ב- 
+ גבוה יותר )כיוון ששגיאות המדידה לא תלויות ב-
 \begin_inset Formula $f_{src}$
 \end_inset
 
->>>דן - אני לא בטוח במה שכתבתי כאן <<<
+, אך הגדלים הנמדדים פרופורציוניים אליו )שגיאה יחסית קטנה(.
 \end_layout
 
 \begin_layout Standard
 גורם מרכזי שבו נדרשנו להתחשב בניסוי זה, הוא החזרות )הדים(.
  באופן אידיאלי, המיקרופון קולט אך ורק את גלי הקול שמגיעים אליו ישירות מהרמקול.
- בפועל, גלי הקול מוחזרים מעצמים סמוכים )ארונות, שולחנות, קירות( ומוקלטים
- ע"י המיקרופון )ראה איור >>>דן<<<(.
+ בפועל, גלי הקול מוחזרים מעצמים סמוכים )ארונות, שולחנות, קירות, ואף מהתקרה(
+ ומוקלטים ע"י המיקרופון )ראה איור 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:multipath spect"
+
+\end_inset
+
+(.
  לא ברור כיצד ניתן להפריד בצורה טובה בין הקול שמגיע בקו ישיר, לבין הקול
  המוחזר, וההחזרה משבשת את הסיגנל.
  כדי להתמודד עם קושי זה, הרחקנו את המערכת מהקיר, שהוא מקור ההחזרות העיקרי
- )כיוון שאנרגיית הקול פוחתת לפי 
+ )כיוון ששטף האנרגיה של גל כדורי פוחת לפי 
 \begin_inset Formula $\frac{1}{r^{2}}$
 \end_inset
 
@@ -2389,7 +2444,11 @@ BPF
 \end_inset
 
 (.
- ניתן להשתמש במסננת מתואמת>>> 
+ ניתן להשתמש במסננת מתואמת )ראה 
+\lang english
+Cross-correlation
+\lang hebrew
+(>>> 
 \begin_inset Formula $cite,cite,cite$
 \end_inset
 
@@ -2459,10 +2518,6 @@ reference "spectroExtr"
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 התוצאות של ניסוי
 \family roman
 \series medium
@@ -2519,12 +2574,12 @@ reference "spectroExtr"
 
 .
  כרגע לא ברור למה.
- מורכבות העיבוד? צעד ראשון בשיפור המדידה, יהיה לשלוט בסיבוב המיקרופון באמצעות
- מנוע, שיקע קצב סיבוב קבוע בדיוק טוב יותר מהאדם.
+ )יתכן והתקלה היא במורכבות העיבוד( צעד ראשון בשיפור המדידה, יהיה לשלוט בסיבוב
+ המיקרופון באמצעות מנוע, שיקע קצב סיבוב קבוע בדיוק טוב יותר מהאדם.
 \end_layout
 
 \begin_layout Standard
-ניסוי
+>>ניסוי
 \numeric on
 2
 \numeric off
@@ -2533,11 +2588,25 @@ reference "spectroExtr"
 \end_inset
 
 , דווקא כן הערה: ניסויים שכוללים חליפה.
- חרא בספקטרום, תמונה בנספח, השערה: הדים, התאבכות
+ חרא בספקטרום, תמונה בנספח, השערה: הדים, התאבכות<<
+\end_layout
+
+\begin_layout Subsubsection*
+שגיאות קינמטיות
 \end_layout
 
 \begin_layout Standard
-חיכוך עם האוויר? הערכת שגיאה
+>>חיכוך עם האוויר? הערכת שגיאה<< מכיוון שערך 
+\begin_inset Formula $g$
+\end_inset
+
+ שהתקבל נמוך מהמצופה בדקנו היתכנות שגרר מתנועת המיקרופון באוויר מסביר את
+ הקטנת התאוצה.
+ מחישוב גס עולה שכוח הגרר קטן בסדר גודל עד שניים מכדי להסביר את ההפרש )
+\begin_inset Formula $\sim10\%$
+\end_inset
+
+(
 \end_layout
 
 \end_body
