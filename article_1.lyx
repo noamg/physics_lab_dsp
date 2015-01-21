@@ -87,10 +87,6 @@
 \end_layout
 
 \begin_layout Standard
-רגיל ]תמונה[
-\end_layout
-
-\begin_layout Standard
 בהינתן תווך של תופעה גלית )למשלף גלי קול( ובו מקור גל )מונוכרומטי( וצופה
  ישנה משמעות למהירויות של הגל והצופה ביחס לתווך.
  במקרה שהצופה והמקור נייחים ביחס לתווך אז הצופה מודד את אותו התדר לתופעה
@@ -99,7 +95,7 @@
  בין שידור שיא לבא אחריו, ולכן, מכיוון שמהירות הגל בתווך קבועה, הפרש הזמנים
  בו הם יגיעו לצופה יתקצר )או יתארך אם המקור מתרחק מהצופה( והתדר הנצפה יהיה
  גדול )קטן( מהתדר המשודר.
- )ראו תמונה
+ )ראו
 \family roman
 \series medium
 \shape up
@@ -123,9 +119,13 @@
 \uwave default
 \noun default
 \color inherit
-\lang english
-x
-\lang hebrew
+
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:doppler_example"
+
+\end_inset
+
 ( דרך נוספת להסתכל על התופעה: קצב הקליטה גדול מקצב השידור, כיוון שהצופה
  "אוסף" חזיתות גל נוספות מהמרחק הקטן בין המקור לצופה.
  תופעה דומה מקבלים עבור התקרבות, תופעה דומה עבור צופה בתנועה.
@@ -521,63 +521,21 @@ aliasing
 \noun default
 \color inherit
 בלעז( שבה, כתוצאה מחוסר המידע על האות בין זמן דגימה אחד לשני נוצרת אי וודאות
- בתדרים שהיו באות הרציף המקורי )כפי שמודגם באיור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-X
-\lang hebrew
+ בתדרים שהיו באות הרציף המקורי )כפי שמודגם 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:niquist_example"
+
+\end_inset
+
 (, החסם לתדירות הכי גבוהה אותה ניתן לשחזר נאמנה מדגימה הוא תדר נייקוויסט
- )נוסחא
-\backslash
-משוואה
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\numeric off
+ )
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:freq_nyq"
+
+\end_inset
+
 , 
 \begin_inset Formula $f$
 \end_inset
@@ -592,38 +550,18 @@ X
 
  הוא מספר (.
  והשניה היא רזולוצית תדר מוגבלת שנובעת ממשך הזמן הסופי שבו אנחנו מתעדים
- את האות )כפי שניתן לראות באיור
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\numeric off
+ את האות )כפי שניתן לראות ב 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:min_freq_example"
+
+\end_inset
+
 , על פני משכי זמן קצרים מספיק קשה להבדיל בין שני סינוסים בתדירויות קרובות(.
  
 \begin_inset Formula 
 \begin{equation}
-f_{nyq}=\frac{f_{s}}{2}\,\, f_{observed}=\left|f_{nyq}-\mod\left(f+f_{nyq},\, f_{s}\right)\right|
+f_{nyq}=\frac{f_{s}}{2}\,\, f_{observed}=\left|f_{nyq}-\mod\left(f+f_{nyq},\, f_{s}\right)\right|\label{eq:freq_nyq}
 \end{equation}
 
 \end_inset
