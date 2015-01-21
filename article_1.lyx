@@ -1091,15 +1091,6 @@ name "free_fall"
 \end_layout
 
 \begin_layout Standard
-<<<דן:
-\end_layout
-
-\begin_layout Standard
-מהירות מינימלית מובחנת - רזולוציית מהירות - נובעת מרזולוציית תדר - נובעת
- ממשך דגימה עיבוד - המוגבל ע"י התאוצה )כמה זמן נשארים באותו תדר(
-\end_layout
-
-\begin_layout Standard
 במהלך פרק זמן של 
 \begin_inset Formula $\Delta T$
 \end_inset
@@ -1152,6 +1143,18 @@ FFT
 \end_inset
 
  
+\end_layout
+
+\begin_layout Standard
+<<<נועם: "נראה לי שצריך לכתוב את הנוסחאות ככה": 
+\begin_inset Formula $\Delta v=g\Delta T$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta\Delta f=f_{src}\frac{\Delta v}{c}$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
