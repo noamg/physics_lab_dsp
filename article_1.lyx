@@ -2182,6 +2182,10 @@ reference "curveFitHorDist"
  נכון בדיסיפלינת עיבוד אותות לצורך ניתוח הנתונים.
 \end_layout
 
+\begin_layout Subsubsection*
+מערכת הניסוי
+\end_layout
+
 \begin_layout Standard
 ראשית, ישנה חשיבות רבה לבחירת תדר מתאים למערכת המדידה.
  הרמקול, והמיקרופון מיועדים לשימוש בתחום תדרים מסוים, והם מגבירים תדרים
@@ -2215,9 +2219,12 @@ reference "curveFitHorDist"
 , המרחק מהעצמים המחזירים הוא גורם קריטי(.
 \end_layout
 
+\begin_layout Subsubsection*
+עיבוד אות
+\end_layout
+
 \begin_layout Standard
-עיבוד אות.
- על כל התוצאות ביצענו סינון סביב תדר השידור )
+על כל התוצאות ביצענו סינון סביב תדר השידור )
 \lang english
 BPF
 \family roman
@@ -2340,6 +2347,10 @@ reference "spectroExtr"
 \end_inset
 
 בצורה נקייה ומתאימה לניתוח כמותי.
+\end_layout
+
+\begin_layout Standard
+
 \end_layout
 
 \begin_layout Standard
