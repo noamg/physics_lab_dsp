@@ -229,31 +229,41 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename for article/doppler_shift_all.png
-	scale 40
+	scale 35
+	BoundingBox 0bp 70bp 350bp 384bp
 
 \end_inset
 
 
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
 \begin_inset CommandInset label
 LatexCommand label
 name "fig:doppler_example"
 
 \end_inset
 
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
 המחשה חזותית של אפקט דופלר במקרה של מקור בתנועה וצופה נייך.
  המקור משדר שתי חזיתות גל )לחילופין - פולסים( בהפרש זמן של זמן מחזור שידור.
  המקור קולט אותן בהפרש זמן של זמן מחזור קליטה.
@@ -261,6 +271,70 @@ name "fig:doppler_example"
 \begin_inset CommandInset ref
 LatexCommand ref
 reference "eq:doppler"
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename for article/radial_doppler_2D_2.png
+	lyxscale 50
+	scale 27
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:doppler_2D"
+
+\end_inset
+
+בתנועה דו ממדית רכיב המהירות הרלוונטי לדופלר הוא רכיב המהירות הרדיאלי 
+\begin_inset Formula $v_{r}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
 
 \end_inset
 
@@ -319,51 +393,6 @@ reference "fig:doppler_2D"
 \end_inset
 
 .
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/radial_doppler_2D_2.png
-	lyxscale 50
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:doppler_2D"
-
-\end_inset
-
-בתנועה דו ממדית רכיב המהירות הרלוונטי לדופלר הוא רכיב המהירות הרדיאלי 
-\begin_inset Formula $v_{r}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section*
@@ -1356,7 +1385,87 @@ FFT
 \begin_inset Formula $\delta T=\sqrt{\frac{c}{f_{src}g}}\approx0.07(sec)\,\Rightarrow\, N=f_{s}\delta T\approx3100\approx4096=2^{12}$
 \end_inset
 
-, שנותן לנו רזולוציית תדר של כ->>דן<<
+, שנותן לנו רזולוציה בזמן )חצי חלון
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+FFT
+\lang hebrew
+( של כ-
+\numeric on
+50
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ מילי-שניה ורזולוציית תדר )חצי תא תדר( של כ-
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+5
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+הרץ.
 \end_layout
 
 \begin_layout Section*
@@ -1501,7 +1610,7 @@ reference "eq:doppler"
 נקבל קשר בין הסחת דופלר לזמן: 
 \begin_inset Formula 
 \begin{equation}
-f_{ob}(t)-f_{src}=\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}
+f_{ob}(t)-f_{src}=\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}\label{eq: horiz dist f(t)}
 \end{equation}
 
 \end_inset
@@ -1995,8 +2104,8 @@ name "spectroExtr"
 \numeric off
 (, בקו כחול על גבי הספקטרוגרמה תדר מקס' בכל פרוסת זמן )המידע שנכנס להתאמת
  העקומה(.
- שוב איכותית צורת העקומה מתאימה לצפוי עפ"י התיאוריה, בתחילת התנועה, כאשר
- 
+ שוב איכותית צורת העקומה מתאימה לצפוי עפ"י התיאוריה.
+ בתחילת התנועה, כאשר 
 \begin_inset Formula $\theta\approx\frac{\pi}{2}\Rightarrow\sin\left(\theta\right)\approx1$
 \end_inset
 
@@ -2082,7 +2191,7 @@ name "curveFitHorDist"
 \end_inset
 
  ו-
-\begin_inset Formula $c=336\pm33\left[\frac{m}{s}\right]$
+\begin_inset Formula $c=336\pm5\left[\frac{m}{s}\right]$
 \end_inset
 
 
@@ -2104,7 +2213,7 @@ reference "spectroExtr"
 ( והתאמה לנוסחא 
 \begin_inset CommandInset ref
 LatexCommand eqref
-reference "היסט דופלר בזמן (עם מרחק אופקי)"
+reference "eq: horiz dist f(t)"
 
 \end_inset
 
@@ -2125,7 +2234,7 @@ reference "curveFitHorDist"
 \end_inset
 
  ו-
-\begin_inset Formula $c=341\pm37\frac{m}{sec}$
+\begin_inset Formula $c=341\pm10\frac{m}{sec}$
 \end_inset
 
 .
