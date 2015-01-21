@@ -334,7 +334,7 @@ status open
 \begin_inset Graphics
 	filename for article/radial_doppler_2D_2.png
 	lyxscale 50
-	scale 50
+	scale 30
 
 \end_inset
 
@@ -721,7 +721,7 @@ name "fig:niquist_example"
 \begin_inset Graphics
 	filename for article/aliasing.jpg
 	lyxscale 70
-	scale 70
+	scale 30
 
 \end_inset
 
@@ -756,7 +756,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename for article/freq_resolution_comb.png
-	scale 73
+	scale 70
 
 \end_inset
 
@@ -1215,7 +1215,7 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename for article/free_fall_vert&angle.png
-	scale 40
+	scale 20
 
 \end_inset
 
@@ -1231,7 +1231,72 @@ name "free_fall"
 
 \end_inset
 
+מערכת הניסוי: מיקרופון בנפילה חופשית, מקליט את הקול שמשדר רמקול נייך.
+ ניסוי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+: אפקט דופלר חד ממדי.
+ ניסוי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+: אפקט דופלר דו ממדי.
+ מהקלטה 
+\begin_inset Formula $sig(t)$
+\end_inset
 
+ניתן לחשב את הסחת דופלר 
+\begin_inset Formula $\Delta f(t)$
+\end_inset
+
+ולהשוות אותה למהירות הצפויה של המיקרופון.
 \end_layout
 
 \end_inset
@@ -1510,7 +1575,34 @@ name "fig:circular_movment"
 
 \end_inset
 
-
+מערכת ניסוי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+: המיקרופון בתנועה מעגלית קצובה, מקליט את הקול שמשדר מיקרופון נייך.
 \end_layout
 
 \end_inset
@@ -1768,7 +1860,48 @@ name "fig: vertical freefall"
 \end_layout
 
 \begin_layout Standard
->>>נועם: תמונה של רגרסיה<<<
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/regression_81.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+הסחת דופלר 
+\begin_inset Formula $\Delta f(t)$
+\end_inset
+
+בנפילה חופשית, שיפוע הגרף הינו 
+\begin_inset Formula $\frac{g}{c}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section*
@@ -2034,53 +2167,57 @@ reference "curveFitHorDist"
 \end_layout
 
 \begin_layout Standard
-שימוש בדיסיפלינה עיבוד אותות תיקוף אפקט דופלר, מדידת קבועים
-\end_layout
-
-\begin_layout Standard
-חיכוך עם האוויר? הערכת שגיאה
-\end_layout
-
-\begin_layout Standard
-הדים התאבכות
-\end_layout
-
-\begin_layout Standard
-טיוב תוצאות.
- מנוע לסיבוב בקצב אחיד.
-\end_layout
-
-\begin_layout Standard
-מיקרופון כדורי.
- חיכוך אוויר.
-\end_layout
-
-\begin_layout Standard
-תדר יותר גבוה - לקשר למציאת התדר המיטבי של המערכת.
- רזולוציה משתפרת עם התדר
-\end_layout
-
-\begin_layout Standard
-שיטות עיבוד אחרות.
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $fm$
+בניסוי זה חקרנו את אפקט דופלר.
+ תיקפנו אותו במקרה החד ממדי, והדו ממדי.
+ מבחינה איכותית, התוצאות מתאימות לתיאוריה 
+\begin_inset Formula $\Delta f\propto v_{radial}$
 \end_inset
 
-, 
-\begin_inset Formula $pm$
+, ומבחינה כמותית, פרמטרי ההתאמה 
+\begin_inset Formula $g,c$
 \end_inset
 
-
+ תואמים בקירוב טוב את הערכים המקובלים.
+ מכשירי המדידה שנדרשו במערכת הניסוי היו פשוטים, אך עיקר האתגר היה בשימוש
+ נכון בדיסיפלינת עיבוד אותות לצורך ניתוח הנתונים.
 \end_layout
 
 \begin_layout Standard
-<<< התאמה ריבועית לפאזה - אולי לנספח?
+ראשית, ישנה חשיבות רבה לבחירת תדר מתאים למערכת המדידה.
+ הרמקול, והמיקרופון מיועדים לשימוש בתחום תדרים מסוים, והם מגבירים תדרים
+ מסוימים ומחלישים אחרים.
+ לשם כל התחלנו את הניסוי בשידור המכסה באופן הדרגתי את כל התדרים, ובחרנו
+ את התדר המיטבי ראה איור >>>דן<<<.
+ דרך ברורה לטייב את תוצאות המדידה, היא להשתמש בציוד מדידה שמתאים לשימוש
+ בתדר 
+\begin_inset Formula $f_{src}$
+\end_inset
+
+ גבוה יותר )כיוון ששגיאת המדידה של כל המדידות קשורה ב- 
+\begin_inset Formula $f_{src}$
+\end_inset
+
+>>>דן - אני לא בטוח במה שכתבתי כאן <<<
 \end_layout
 
 \begin_layout Standard
-על כל התוצאות ביצענו סינון סביב תדר השידור )
+גורם מרכזי שבו נדרשנו להתחשב בניסוי זה, הוא החזרות )הדים(.
+ באופן אידיאלי, המיקרופון קולט אך ורק את גלי הקול שמגיעים אליו ישירות מהרמקול.
+ בפועל, גלי הקול מוחזרים מעצמים סמוכים )ארונות, שולחנות, קירות( ומוקלטים
+ ע"י המיקרופון )ראה איור >>>דן<<<(.
+ לא ברור כיצד ניתן להפריד בצורה טובה בין הקול שמגיע בקו ישיר, לבין הקול
+ המוחזר, וההחזרה משבשת את הסיגנל.
+ כדי להתמודד עם קושי זה, הרחקנו את המערכת מהקיר, שהוא מקור ההחזרות העיקרי
+ )כיוון שאנרגיית הקול פוחתת לפי 
+\begin_inset Formula $\frac{1}{r^{2}}$
+\end_inset
+
+, המרחק מהעצמים המחזירים הוא גורם קריטי(.
+\end_layout
+
+\begin_layout Standard
+עיבוד אות.
+ על כל התוצאות ביצענו סינון סביב תדר השידור )
 \lang english
 BPF
 \family roman
@@ -2125,51 +2262,88 @@ BPF
 \shape default
 \size default
 \emph default
-\numeric on
 \bar default
 \strikeout default
 \uuline default
 \uwave default
 \noun default
 \color inherit
-\lang english
-7
-\numeric off
-kHz
-\lang hebrew
+
+\begin_inset Formula $f_{src}=7[kHz]$
+\end_inset
+
 (.
+ ניתן להשתמש במסננת מתואמת>>> 
+\begin_inset Formula $cite,cite,cite$
+\end_inset
+
+<<<אבל בחרנו לא להשתמש בה, כיוון שכך היינו יכולים להדגיש את התוצאה שאנו
+ מצפים לה, במקום לנתח מה שיש.
 \end_layout
 
 \begin_layout Standard
-בכלל הניסויים רצינו תחילה לקבל תדר מגילוי
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-FM
-\lang hebrew
-, שהתברר כמורעש מדי.
- לאחר מכן פנינו להתאמת עקומה לפאזה )במקרה של ניסוי
+בכל הניסויים, אנחנו מנתחים את הסחת הדופלר 
+\begin_inset Formula $\Delta f(t)$
+\end_inset
+
+.
+ הדרך המתבקשת מאליה למדוד אותה, היא להשתמש בגילוי 
+\begin_inset Formula $FM$
+\end_inset
+
+על הסיגנל המוקלט 
+\begin_inset Formula $sig(t)$
+\end_inset
+
+.
+ לצערנו, התברר שאיכות ההקלטה לא מספיקה לשימוש בגילוי 
+\begin_inset Formula $FM$
+\end_inset
+
+ לצורך ניתוח כמותי, היות והרעשים גורמים לקפיצות לא זניחות בתדר הרגעי.
+ טכניקה אחרת שניסינו, הייתה לנתח את הסיגנל בניתוח 
+\begin_inset Formula $PM$
+\end_inset
+
+.
+ למשל, בנפילה חופשית חד ממדית: 
+\begin_inset Formula $\Delta f(t)\propto t$
+\end_inset
+
+ולכן 
+\begin_inset Formula $\phi(t)\propto t^{2}$
+\end_inset
+
+, כך שניתוח של התאמת עקומה פרבולית לפאזה הרגעית הייתה חושפת את 
+\begin_inset Formula $\frac{g}{c}$
+\end_inset
+
+.
+ גם שיטת ניתוח זו סבלה מרעשים רבים מדי, ולא יכלה לשמש לניתוח כמותי.
+\end_layout
+
+\begin_layout Standard
+פתרנו את הבעיה ע"י שימוש בניתוח ספקטוגרמה של הסיגנל.
+ בספקטוגרמה היה ניתן לזהות בבירור את 
+\begin_inset Formula $\Delta f(t)$
+\end_inset
+
+)ראה איור 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "spectroExtr"
+
+\end_inset
+
+(, וע"י בחירת התדר החזק ביותר בכל רגע נתון, קיבלנו את 
+\begin_inset Formula $\Delta f(t)$
+\end_inset
+
+בצורה נקייה ומתאימה לניתוח כמותי.
+\end_layout
+
+\begin_layout Standard
+התוצאות של ניסוי
 \family roman
 \series medium
 \shape up
@@ -2194,10 +2368,39 @@ FM
 \uwave default
 \noun default
 \color inherit
-1
+3
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
 \numeric off
-, למשל, פרבולה(, שלא הצליחה גם כן.
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
  
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מתאימות איכותית, אך כמותית סוטות מהערך הידוע של 
+\begin_inset Formula $c$
+\end_inset
+
+.
+ כרגע לא ברור למה.
+ מורכבות העיבוד? צעד ראשון בשיפור המדידה, יהיה לשלוט בסיבוב המיקרופון באמצעות
+ מנוע, שיקע קצב סיבוב קבוע בדיוק טוב יותר מהאדם.
 \end_layout
 
 \begin_layout Standard
@@ -2211,6 +2414,10 @@ FM
 
 , דווקא כן הערה: ניסויים שכוללים חליפה.
  חרא בספקטרום, תמונה בנספח, השערה: הדים, התאבכות
+\end_layout
+
+\begin_layout Standard
+חיכוך עם האוויר? הערכת שגיאה
 \end_layout
 
 \end_body
