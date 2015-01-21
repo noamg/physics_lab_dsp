@@ -87,6 +87,10 @@
 \end_layout
 
 \begin_layout Standard
+רגיל ]תמונה[
+\end_layout
+
+\begin_layout Standard
 בהינתן תווך של תופעה גלית )למשלף גלי קול( ובו מקור גל )מונוכרומטי( וצופה
  ישנה משמעות למהירויות של הגל והצופה ביחס לתווך.
  במקרה שהצופה והמקור נייחים ביחס לתווך אז הצופה מודד את אותו התדר לתופעה
@@ -95,7 +99,7 @@
  בין שידור שיא לבא אחריו, ולכן, מכיוון שמהירות הגל בתווך קבועה, הפרש הזמנים
  בו הם יגיעו לצופה יתקצר )או יתארך אם המקור מתרחק מהצופה( והתדר הנצפה יהיה
  גדול )קטן( מהתדר המשודר.
- )ראו
+ )ראו תמונה
 \family roman
 \series medium
 \shape up
@@ -119,13 +123,9 @@
 \uwave default
 \noun default
 \color inherit
-
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:doppler_example"
-
-\end_inset
-
+\lang english
+x
+\lang hebrew
 ( דרך נוספת להסתכל על התופעה: קצב הקליטה גדול מקצב השידור, כיוון שהצופה
  "אוסף" חזיתות גל נוספות מהמרחק הקטן בין המקור לצופה.
  תופעה דומה מקבלים עבור התקרבות, תופעה דומה עבור צופה בתנועה.
@@ -521,21 +521,63 @@ aliasing
 \noun default
 \color inherit
 בלעז( שבה, כתוצאה מחוסר המידע על האות בין זמן דגימה אחד לשני נוצרת אי וודאות
- בתדרים שהיו באות הרציף המקורי )כפי שמודגם 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:niquist_example"
-
-\end_inset
-
+ בתדרים שהיו באות הרציף המקורי )כפי שמודגם באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+X
+\lang hebrew
 (, החסם לתדירות הכי גבוהה אותה ניתן לשחזר נאמנה מדגימה הוא תדר נייקוויסט
- )
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:freq_nyq"
-
-\end_inset
-
+ )נוסחא
+\backslash
+משוואה
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
 , 
 \begin_inset Formula $f$
 \end_inset
@@ -550,18 +592,38 @@ reference "eq:freq_nyq"
 
  הוא מספר (.
  והשניה היא רזולוצית תדר מוגבלת שנובעת ממשך הזמן הסופי שבו אנחנו מתעדים
- את האות )כפי שניתן לראות ב 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:min_freq_example"
-
-\end_inset
-
+ את האות )כפי שניתן לראות באיור
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
 , על פני משכי זמן קצרים מספיק קשה להבדיל בין שני סינוסים בתדירויות קרובות(.
  
 \begin_inset Formula 
 \begin{equation}
-f_{nyq}=\frac{f_{s}}{2}\,\, f_{observed}=\left|f_{nyq}-\mod\left(f+f_{nyq},\, f_{s}\right)\right|\label{eq:freq_nyq}
+f_{nyq}=\frac{f_{s}}{2}\,\, f_{observed}=\left|f_{nyq}-\mod\left(f+f_{nyq},\, f_{s}\right)\right|
 \end{equation}
 
 \end_inset
@@ -787,7 +849,7 @@ name "fig:min_freq_example"
 
 .
  ניתן לתאר גם סיגנל שבו הפאזה לא לינארית לזמן, ואז נגדיר: 
-\begin_inset Formula $f(t)=\dot{\phi}\neq Const$
+\begin_inset Formula $f(t)=\dot{\phi(t)\neq Const}$
 \end_inset
 
 .
@@ -821,19 +883,44 @@ AM
 PM
 \lang hebrew
 ( יחזיר לנו את הפאזה של האות ברגע נתון 
-\begin_inset Formula $\phi\left(t\right)$
-\end_inset
-
-, וממנו נוכל לקבל גילוי תדר רגעי: 
-\begin_inset Formula $FM$
-\end_inset
-
-ולקבל את 
-\begin_inset Formula $f(t)$
+\begin_inset Formula $2\pi\tilde{f}\left(t\right)t+\phi\left(t\right)$
 \end_inset
 
 .
- דרך מקובלת לנתח את הסיגנל ולעבד מתוכו את הגילויים היא שימוש בטרנספורם הילברט.
+ ועתה, אם נגדיר תדר רגעי בתור הנגזרת של הפאזה אז גילוי תדר
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)
+\lang english
+FM
+\lang hebrew
+( יחזיר לנו בדיוק את זה.
+ קל לראות שעבור 
+\begin_inset Formula $\tilde{f}\left(t\right),\,\phi\left(t\right)$
+\end_inset
+
+ קבועים בזמן התדר הרגעי הוא התדר של האות.
 \end_layout
 
 \begin_layout Subsection*
@@ -841,37 +928,6 @@ PM
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/model-spectrogram.png
-	lyxscale 50
-	scale 50
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-ספקטרוגרמה של אות מסונתז: ציר זמן בכיוון מעלה, שלושה מקטעים בהם האות בתדר
- קבוע, עולה ליניארית בתדר ולבסוף חוזר לתדר המקורי אך מפסיק להיות גל טהור.
-\end_layout
-
-\end_inset
-
 אנליזת פורייה הצגה של סיגנל בתור הרכבה של פונקציות בסיס מחזוריות בתדרים
  מסוימים.
  במערכות מסוימות מעניין לבחון באיזו מתכונת התדרים משתנים לאורך הזמן.
@@ -1091,6 +1147,15 @@ name "free_fall"
 \end_layout
 
 \begin_layout Standard
+<<<דן:
+\end_layout
+
+\begin_layout Standard
+מהירות מינימלית מובחנת - רזולוציית מהירות - נובעת מרזולוציית תדר - נובעת
+ ממשך דגימה עיבוד - המוגבל ע"י התאוצה )כמה זמן נשארים באותו תדר(
+\end_layout
+
+\begin_layout Standard
 במהלך פרק זמן של 
 \begin_inset Formula $\Delta T$
 \end_inset
@@ -1143,18 +1208,6 @@ FFT
 \end_inset
 
  
-\end_layout
-
-\begin_layout Standard
-<<<נועם: "נראה לי שצריך לכתוב את הנוסחאות ככה": 
-\begin_inset Formula $\Delta v=g\Delta T$
-\end_inset
-
-, 
-\begin_inset Formula $\Delta\Delta f=f_{src}\frac{\Delta v}{c}$
-\end_inset
-
-
 \end_layout
 
 \begin_layout Section*
@@ -1212,12 +1265,8 @@ FFT
 \end_layout
 
 \begin_layout Standard
-מטרת ניסוי זה לתקף את אפקט דופלר עבור תנועה דו ממדית, ולמדוד בנפרד את 
-\begin_inset Formula $g,c$
-\end_inset
-
-.
- בדומה לניסוי
+מקלט בנפילה חופשית, בהסחה אופקית, למעשה תנועה דו ממדית.
+ ]ציור סכמטי - איור
 \family roman
 \series medium
 \shape up
@@ -1242,36 +1291,13 @@ FFT
 \uwave default
 \noun default
 \color inherit
-1
-\numeric off
-, בניסוי זה המיקרופון בנפילה חופשית אנכית, אך על ישר הנמצא בהסחה אופקית
- 
-\begin_inset Formula $d$
-\end_inset
-
- ביחס למיקרופון )
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "free_fall"
-
-\end_inset
-
- בצד שמאל(.
- ידיעת גודל בעל ממד אורך 
-\begin_inset Formula $d$
-\end_inset
-
- תאפשר מדידה נפרדת של 
-\begin_inset Formula $g,c$
-\end_inset
-
-.
- כמו בניסוי
+5
 \family roman
 \series medium
 \shape up
 \size normal
 \emph off
+\numeric off
 \bar no
 \strikeout off
 \uuline off
@@ -1284,28 +1310,16 @@ reference "free_fall"
 \shape default
 \size default
 \emph default
-\numeric on
 \bar default
 \strikeout default
 \uuline default
 \uwave default
 \noun default
 \color inherit
-1
-\numeric off
-, מתוך 
-\begin_inset Formula $sig(t)$
-\end_inset
-
-מחשבים את 
-\begin_inset Formula $f_{ob}(t)$
-\end_inset
-
-.
- ע"ס המהירות הרדיאלית, וקינמטיקה של נפילה חופשית ממנוחה: 
+ב'[
 \begin_inset Formula 
 \[
-v_{r}=v_{y}\left(t\right)\cdot\sin\left(\theta\right),tg(\theta)=\frac{y}{d}
+v_{r}=v_{y}\left(t\right)\cdot\sin\left(\theta\right)
 \]
 
 \end_inset
@@ -1322,30 +1336,25 @@ v_{r}=v_{y}\left(t\right)\cdot\sin\left(\theta\right),tg(\theta)=\frac{y}{d}
 \end_layout
 
 \begin_layout Standard
-וע"ס 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:doppler"
-
-\end_inset
-
-נקבל קשר בין הסחת דופלר לזמן: 
-\begin_inset Formula 
-\[
-f_{ob}(t)-f_{src}=\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}
-\]
-
-\end_inset
-
-
+קינמטיקה נוסחאות.
+ עקומה צפויה ב- ______
 \end_layout
 
 \begin_layout Standard
-באמצעות התאמת עקומה קיבלנו חישוב של הפרמטרים החופשיים 
-\begin_inset Formula $g,c$
+אולי בתקווה - ניתוח בסיסי )מבוסס על משרדת תדר / שיפוע עקומת תדר / נקודת
+ מקסימום בהסחת התדר(
+\end_layout
+
+\begin_layout Standard
+התאמת עקומה יותר מורכבת - מוצאים את 
+\begin_inset Formula $g$
 \end_inset
 
-.
+
+\begin_inset Formula $c$
+\end_inset
+
+בנפרד.
 \end_layout
 
 \begin_layout Section*
@@ -1380,6 +1389,10 @@ f_{ob}(t)-f_{src}=\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\
 \end_layout
 
 \begin_layout Standard
+בניסוי השלישי
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1401,13 +1414,6 @@ status open
 \end_inset
 
 
-\begin_inset CommandInset label
-LatexCommand label
-name "fig:circuler_movement"
-
-\end_inset
-
-
 \end_layout
 
 \end_inset
@@ -1417,144 +1423,6 @@ name "fig:circuler_movement"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-מטרת ניסוי זה למדוד את 
-\begin_inset Formula $c$
-\end_inset
-
-באופן בלתי תלוי ב- 
-\begin_inset Formula $g$
-\end_inset
-
-.
- כפי שרואים ב
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "fig:circuler_movement"
-
-\end_inset
-
-המקרופון נקשר בחוט ומאולץ לנוע בתנועה מעגלית במהירות זוויתית 
-\begin_inset Formula $\omega=\dot{\theta}\approx Const$
-\end_inset
-
-ומכאן 
-\begin_inset Formula $\theta(t)=\omega t$
-\end_inset
-
-.
- תחת בחירת הפרמטרים בניסוי: 
-\begin_inset Formula $a_{c}=\omega^{2}R>>g$
-\end_inset
-
-.
- אנו מודדים את הסיגנל המתקבל במיקרופון 
-\begin_inset Formula $sig(t)$
-\end_inset
-
- כמו בניסויים הקודמים.
- המערכת מקיימת מחזוריות של 
-\begin_inset Formula $\omega$
-\end_inset
-
- , המתבטאת באיפנון עוצמה 
-\begin_inset Formula $A(\theta(t))$
-\end_inset
-
- )המושפעת מהמרחק בין המיקרופון לרמקול(, ואיפנון תדר 
-\begin_inset Formula $f(\theta(t))$
-\end_inset
-
- )בגלל שינוי היטל המהירות על המהירות הרדיאלית, ובגלל אפקט דופלר(.
-\end_layout
-
-\begin_layout Standard
-תחת הקירוב 
-\begin_inset Formula $R<<L$
-\end_inset
-
-נקבל: 
-\begin_inset Formula $v_{r}=vsin(\theta)=R\omega sin(\theta)$
-\end_inset
-
-.
- ולכן ע"ס 
-\begin_inset CommandInset ref
-LatexCommand ref
-reference "eq:doppler"
-
-\end_inset
-
-:
-\begin_inset Formula 
-\[
-\Delta f(\theta)=-\frac{f_{src}}{cR}\omega sin(\theta)\Rightarrow\Delta f(t)=-\frac{f_{src}}{cR}\omega sin(\omega t)
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-כעת נוכל לנתח את 
-\begin_inset Formula $\Delta f(t)$
-\end_inset
-
-בתור סיגנל בפני עצמו.
- למעשה, הוא סיגנל מחזורי.
- ע"י גילוי פאזה נקבל 
-\begin_inset Formula $\phi_{\Delta f}(t)=\omega t$
-\end_inset
-
-וע"י רגרסיה לינארית נוכל לחלץ את 
-\begin_inset Formula $\omega$
-\end_inset
-
-, וגם לתקף את הקירוב 
-\begin_inset Formula $\omega=\dot{\theta=Const}$
-\end_inset
-
-.
- ע"י גילוי 
-\begin_inset Formula $AM$
-\end_inset
-
- נקבל 
-\begin_inset Formula $A_{\Delta f}=\frac{f_{src}}{cR}$
-\end_inset
-
- ממנו נחלץ את 
-\begin_inset Formula $c$
-\end_inset
-
-.
-\end_layout
-
-\begin_layout Standard
-ללא הקירוב נסמן 
-\begin_inset Formula $\delta=\frac{R}{L}$
-\end_inset
-
-ונקבל תיקון לנוסחאות הנ"ל:
-\begin_inset Formula 
-\[
-v_{r}=-R\omega sin(\theta)Q(\theta),Q(\theta)=\frac{-2cos(\theta)\delta+1}{\sqrt{1+\delta^{2}-2cos(\theta)\delta}}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-<<< אולי ניתוח אחר.?? כנראה שלא יהיה זמן.
-\end_layout
-
-\begin_layout Standard
 סיבוב המקלט )רחוק מהמשדר וקרוב לו(, ניתוח של אפנוני העוצמה והתדר, יש רדיוס
  סיבוב ולכן מידה של אורך, אולי גם שינוי המרחקים ממרכז הסיבוב.
 \end_layout
@@ -1883,18 +1751,6 @@ reference "curveFitHorDist"
 ?
 \end_layout
 
-\begin_layout Standard
-ספקטוגרמה של רחוק רחוק
-\end_layout
-
-\begin_layout Standard
-להראות גילוי פאזה בתור הוכחה לקצב הסיבוב הקבוע
-\end_layout
-
-\begin_layout Standard
-להראות גילוי עצמה
-\end_layout
-
 \begin_layout Part*
 מסקנות/דיון
 \end_layout
@@ -1943,11 +1799,6 @@ reference "curveFitHorDist"
 
 \begin_layout Standard
 <<< התאמה ריבועית לפאזה - אולי לנספח?
-\end_layout
-
-\begin_layout Standard
-נספח: אולי בתקווה - ניתוח בסיסי )מבוסס על משרדת תדר / שיפוע עקומת תדר /
- נקודת מקסימום בהסחת התדר(
 \end_layout
 
 \end_body
