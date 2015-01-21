@@ -787,7 +787,7 @@ name "fig:min_freq_example"
 
 .
  ניתן לתאר גם סיגנל שבו הפאזה לא לינארית לזמן, ואז נגדיר: 
-\begin_inset Formula $f(t)=\dot{\phi(t)\neq Const}$
+\begin_inset Formula $f(t)=\dot{\phi}\neq Const$
 \end_inset
 
 .
@@ -821,44 +821,19 @@ AM
 PM
 \lang hebrew
 ( יחזיר לנו את הפאזה של האות ברגע נתון 
-\begin_inset Formula $2\pi\tilde{f}\left(t\right)t+\phi\left(t\right)$
+\begin_inset Formula $\phi\left(t\right)$
+\end_inset
+
+, וממנו נוכל לקבל גילוי תדר רגעי: 
+\begin_inset Formula $FM$
+\end_inset
+
+ולקבל את 
+\begin_inset Formula $f(t)$
 \end_inset
 
 .
- ועתה, אם נגדיר תדר רגעי בתור הנגזרת של הפאזה אז גילוי תדר
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-)
-\lang english
-FM
-\lang hebrew
-( יחזיר לנו בדיוק את זה.
- קל לראות שעבור 
-\begin_inset Formula $\tilde{f}\left(t\right),\,\phi\left(t\right)$
-\end_inset
-
- קבועים בזמן התדר הרגעי הוא התדר של האות.
+ דרך מקובלת לנתח את הסיגנל ולעבד מתוכו את הגילויים היא שימוש בטרנספורם הילברט.
 \end_layout
 
 \begin_layout Subsection*
