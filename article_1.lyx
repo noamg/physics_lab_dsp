@@ -65,29 +65,21 @@
 \begin_body
 
 \begin_layout Title
-עיבוד אותות ואיבוד עשתונות
+עיבוד אותות, הסחת דופלר, ומה שביניהם
 \end_layout
 
 \begin_layout Author
-פלוני ואלמוני
+דן וקסלר ונועם גביש, בהנחיית ניר אורבך
 \end_layout
 
 \begin_layout Abstract
-בחיי היום-יום אנו משתמשים בעיבוד אות.
- עשינו משהו אקוסטי.
- תופעה פיזיקלית שטבעי לנתח בצורה זו.
- תוצאות תואמות את המציאות.
- נדרש טיוב של כלים.
- התמודדות עם רעש, טכניקות בסיסיות יותר נכשלו.
- תופעות שעלו ששוות עוד מחקר מקרוב.
- ניסוי שאפשר לעשות בכל בית )שיש בו מחשב!(.מדידה של מהירות הקול, תאוצת הכובד
- על פני כדה"א.
- 
-\end_layout
+עיבוד אותות היא דיסיפלינה שעוסקת בניתוח של מידע רציף דוגמת קול וגלי רדיו.
+ בחיי היום-יום אנו נתקלים בשימוש נרחב בעיבוד אותות: החל בטלפון שבכיס, דרך
+ המחשב שעל השולחן וכלה במכשירי ה- 
+\begin_inset Formula $GPS$
+\end_inset
 
-\begin_layout Abstract
-בחיי היום-יום עיבוד אות מקיף אותנו, בין עם בטלפון שבכיס או במחשב שעל השולחן,
- כל אמצעי דיגיטלי שברשותנו עושה שימוש בכלים של עיבוד אות.
+.
 \end_layout
 
 \begin_layout Abstract
@@ -106,35 +98,11 @@
 \end_inset
 
 , וקיבלנו תוצאות דומות לערכים הידועים, כאישרור לנכונות התיאוריה.
- עוצמתו של הניסוי היא בפשטותו, שנובעת מציוד מדידה בסיסי, והקלות שבשימוש
- באלגוריתמים מורכבים )דוגמת
-\family roman
-\series medium
-\shape up
-\size small
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-\lang english
-FFT
-\lang hebrew
-( בכל מחשב ביתי.
+ עוצמתו של הניסוי היא במערכת ניסוי פשוטה: ציוד מדידה בסיסי, ומחשב לצורך
+ פעולות עיבוד אות המצויים בכל מחשב ביתי.
+ ניתוח הנתונים הצריך יישום של מגוון טכניקות של ניתוחים בעולם התדר, התמודדות
+ עם רעש וגילויים דיגיטליים.
+ >>> משפט סיכום חכם?<<<
 \end_layout
 
 \begin_layout Part*
@@ -2278,6 +2246,24 @@ reference "curveFitHorDist"
 \begin_layout Standard
 כפי שניתן לראות באיורים >>>דן: צריך להכניס אותם זה לצד זה והסתכבתי עם זה
  <<<
+\end_layout
+
+\begin_layout Standard
+>>>
+\lang english
+for article/circular_df_t.png
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+for article/circular_pm_df_t.png
+\end_layout
+
+\begin_layout Standard
+
+\lang english
+<<<
 \end_layout
 
 \begin_layout Standard
