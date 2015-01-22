@@ -2589,6 +2589,62 @@ reference "spectroExtr"
 \end_layout
 
 \begin_layout Standard
+בניסוי
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ניסינו גם להעריך את הגדלים לפי נק' הקיצון של ההיסט, אך גם שיטה זו לא נתנה
+ תוצאות מספקות, כנראה שבגלל שהמקס' לא חד ולכן לא ניתן לקבל דיוק גבוהה מספיק
+ למיקומו בזמן.
+\end_layout
+
+\begin_layout Standard
 התוצאות של ניסוי
 \family roman
 \series medium
@@ -2647,19 +2703,6 @@ reference "spectroExtr"
  כרגע לא ברור למה.
  )יתכן והתקלה היא במורכבות העיבוד( צעד ראשון בשיפור המדידה, יהיה לשלוט בסיבוב
  המיקרופון באמצעות מנוע, שיקע קצב סיבוב קבוע בדיוק טוב יותר מהאדם.
-\end_layout
-
-\begin_layout Standard
->>ניסוי
-\numeric on
-2
-\numeric off
-: נקודות קיצון תוצאות רעות התאמת עקומה ל-
-\begin_inset Formula $\Delta f_{dopple}\left(t\right)$
-\end_inset
-
-, דווקא כן הערה: ניסויים שכוללים חליפה.
- חרא בספקטרום, תמונה בנספח, השערה: הדים, התאבכות<<
 \end_layout
 
 \begin_layout Subsubsection*
