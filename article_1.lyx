@@ -44,7 +44,9 @@
 \color #008000
 \end_index
 \leftmargin 2cm
+\topmargin 3cm
 \rightmargin 2cm
+\bottommargin 3cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
@@ -2447,13 +2449,82 @@ BPF
  ניתן להשתמש במסננת מתואמת )ראה 
 \lang english
 Cross-correlation
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
 \lang hebrew
-(>>> 
-\begin_inset Formula $cite,cite,cite$
-\end_inset
-
-<<<אבל בחרנו לא להשתמש בה, כיוון שכך היינו יכולים להדגיש את התוצאה שאנו
- מצפים לה, במקום לנתח מה שיש.
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ו-
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+Matched-Filter
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+בוויקיפדיה( אבל בחרנו לא להשתמש בה, כיוון שכך היינו יכולים להדגיש את התוצאה
+ שאנו מצפים לה, במקום לנתח מה שיש.
 \end_layout
 
 \begin_layout Standard
@@ -2596,7 +2667,7 @@ reference "spectroExtr"
 \end_layout
 
 \begin_layout Standard
->>חיכוך עם האוויר? הערכת שגיאה<< מכיוון שערך 
+מכיוון שערך 
 \begin_inset Formula $g$
 \end_inset
 
