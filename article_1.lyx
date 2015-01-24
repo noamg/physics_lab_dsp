@@ -98,11 +98,10 @@
 \end_inset
 
 , וקיבלנו תוצאות דומות לערכים הידועים, כאישרור לנכונות התיאוריה.
- עוצמתו של הניסוי היא במערכת ניסוי פשוטה: ציוד מדידה בסיסי, ומחשב לצורך
- פעולות עיבוד אות המצויים בכל מחשב ביתי.
+ עוצמתו של הניסוי היא במערכת ניסוי פשוטה: ציוד מדידה בסיסי )מיקרופון, רמקול(,
+ ומחשב לצורך פעולות עיבוד אות.
  ניתוח הנתונים הצריך יישום של מגוון טכניקות של ניתוחים בעולם התדר, התמודדות
  עם רעש וגילויים דיגיטליים.
- >>> משפט סיכום חכם?<<<
 \end_layout
 
 \begin_layout Part*
@@ -1012,6 +1011,14 @@ FFT
 \noun default
 \color inherit
 לכל מקטע(.
+ דוגמא לספקטרוגרמה באיור 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:spectExmpl"
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
@@ -1036,6 +1043,13 @@ status open
 \end_inset
 
 
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:spectExmpl"
+
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -1055,15 +1069,170 @@ status open
 \end_layout
 
 \begin_layout Standard
-ביישום בפועל משתמשים בשני עיבודים נוספים
-\end_layout
+ביישום בפועל, כדי לשפר מלאכותית את הרזולוציה בזמן ובתדר ולקבל תמונה קצת
+ יותר ברורה )ויפה( מבצעים
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+zero-padding
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+ולוקחים חלונות זמן חופפים.
 
-\begin_layout Standard
-<<<חפיפה
-\end_layout
-
-\begin_layout Standard
-<<<זירו פדדינג
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+zero-padding
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ משמעו ביצוע 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+\lang english
+FFT
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+על חלון זמן ארוך יותר )יותר נקודות דגימה( מחלון הזמן שלקחנו בדגימה, זאת
+ על ידי הוספת אפסים )מכאן השם( לסוף החלון עד השלמה לאורך הרצוי.
+ בצורה זו לא מתווספים רכיבים ספקטרלים מזמנים אחרים בדגימה, ומתקבלים תאי
+ תדר קטנים יותר )רזולוציה משופרת בתדר( כאשר הפעולה יותר דומה לאינטרפולציה
+ על הספקטרום שהיה מתקבל מהחלון הקצר, משום שלא הוספנו אינפורמציה ל-
+\lang english
+FFT
+\family roman
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+\lang hebrew
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+לעבד.
+ חלונות זמן חופפים פשוט נותנים לוקליזציה טובה יותר בזמן לתופעה, כאשר חלון
+ הזמן איתו עובדים עדיין "מורח", אך ניתן להבחין בין חלון שבו התופעה מרכזית
+ וכזה שתופס אותה בצורה חלקית.
+ 
 \end_layout
 
 \begin_layout Part*
@@ -2125,10 +2294,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -2244,26 +2409,130 @@ reference "curveFitHorDist"
 \end_layout
 
 \begin_layout Standard
-כפי שניתן לראות באיורים >>>דן: צריך להכניס אותם זה לצד זה והסתכבתי עם זה
- <<<
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Standard
->>>
-\lang english
-for article/circular_df_t.png
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/circular_df_t.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\begin_layout Plain Layout
+\begin_inset Caption
 
-\lang english
-for article/circular_pm_df_t.png
+\begin_layout Plain Layout
+שינוי בהיסט הדופלר בזמן בתנועה מעגלית )רחוקה מהמקור(.
+ ניתן לראות דמיון לסינוס
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:circular df"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Standard
+\end_inset
 
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \quad{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/circular_pm_df_t.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:circular pm"
+
+\end_inset
+
+גילוי פאזה )
 \lang english
-<<<
+PM
+\lang hebrew
+( של היסט התדר מאיור 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:circular df"
+
+\end_inset
+
+.
+ ניתן לראות שהוא מאוד לינארי - אפנון התדר שהתקבל, בקירוב טוב, אכן סינוסודיאלי
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -2296,58 +2565,45 @@ for article/circular_pm_df_t.png
 \numeric off
 : הסחת דופלר כתלות בזמן.
  בהתאם למודל 
-\begin_inset Formula $R<<L$
+\begin_inset Formula $R\ll L$
 \end_inset
 
  מתקבל 
 \begin_inset Formula $\Delta f(t)\propto sin(\omega t)$
 \end_inset
 
+ )איור 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:circular df"
 
+\end_inset
+
+(
 \end_layout
 
 \begin_layout Standard
-ניסוי
-\family roman
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
-\numeric off
-: גילוי פאזה של 
+גילוי פאזה של 
 \begin_inset Formula $\Delta f(t)$
 \end_inset
 
 .
  בהתאם למודל 
-\begin_inset Formula $R<<L$
+\begin_inset Formula $R\ll L$
 \end_inset
 
 מתקבלת בקירוב פאזה לינארית: 
 \begin_inset Formula $\phi_{\Delta f}\propto t$
 \end_inset
 
+ )איור 
+\begin_inset CommandInset ref
+LatexCommand eqref
+reference "fig:circular pm"
 
+\end_inset
+
+(
 \end_layout
 
 \begin_layout Standard
@@ -2423,7 +2679,7 @@ for article/circular_pm_df_t.png
 
 .
  מעניין לציין שגם מדידות עבורן הקירוב 
-\begin_inset Formula $R<<L$
+\begin_inset Formula $R\ll L$
 \end_inset
 
  פחות טוב, מתקבל ערך בתחום סביר: 
@@ -2572,7 +2828,7 @@ name "fig:multipath spect"
  הרמקול, והמיקרופון מיועדים לשימוש בתחום תדרים מסוים, והם מגבירים תדרים
  מסוימים ומחלישים אחרים.
  לשם כל התחלנו את הניסוי בשידור המכסה באופן הדרגתי את כל התדרים, ובחרנו
- את התדר המיטבי >>דן: אין איור<<.
+ את התדר המיטבי.
  דרך ברורה לטייב את תוצאות המדידה, היא להשתמש בציוד מדידה שמתאים לשימוש
  בתדר 
 \begin_inset Formula $f_{src}$
