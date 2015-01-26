@@ -120,10 +120,6 @@ paperheight]{car-doppler.jpg}}
 \end_layout
 
 \begin_layout Itemize
-להחליט סופית על השמות של השקופיות
-\end_layout
-
-\begin_layout Itemize
 להצליח לשים תמונה בשקופית הראשונה )הפתרון, כנראה טמון פה: 
 \lang english
 http://wiki.lyx.org/Examples/Beamer
@@ -136,28 +132,11 @@ http://wiki.lyx.org/Examples/Beamer
 \end_layout
 
 \begin_layout Itemize
-להעלים את ה- 
-\begin_inset Formula $caption$
-\end_inset
-
-באיורים, זה משאיר ":" מעצבנים כאלה
-\end_layout
-
-\begin_layout Itemize
 הצגה חיה
 \end_layout
 
 \begin_layout Itemize
 פרטים קטנים ברוב השקופיות
-\end_layout
-
-\begin_layout Itemize
-לארגן את שקופית הדיון
-\end_layout
-
-\begin_layout Itemize
-החלטה אסטרטגית לגבי רציונל ההצגה: נועם חושב שצריך להשאיר את רוב התוכן לגבי
- עיבוד אות לסוף
 \end_layout
 
 \begin_layout Itemize
@@ -651,7 +630,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-תוצאות: ניסוי
+ניסוי
 \family sans
 \series bold
 \shape up
@@ -689,7 +668,7 @@ status open
 \uwave off
 \noun off
 \color blue
- 
+: 
 \family default
 \series default
 \shape default
@@ -801,7 +780,7 @@ sig(t)\Rightarrow spectogram\Rightarrow\Delta f(t)
 \end_layout
 
 \begin_layout BeginFrame
-תוצאות ניסוי
+ניסוי
 \family sans
 \series bold
 \shape up
@@ -828,7 +807,7 @@ sig(t)\Rightarrow spectogram\Rightarrow\Delta f(t)
 \color inherit
 1
 \numeric off
-:רגרסיה לינארית
+: תוצאות )רגרסיה לינארית(
 \begin_inset ERT
 status open
 
@@ -1135,7 +1114,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-תוצאות ניסוי
+ניסוי
 \family sans
 \series bold
 \shape up
@@ -1162,7 +1141,7 @@ status open
 \color inherit
 2
 \numeric off
-
+: מידע גולמי
 \begin_inset ERT
 status open
 
@@ -1262,7 +1241,7 @@ sig(t)\Rightarrow spectogram\Rightarrow\Delta f(t)
 \end_layout
 
 \begin_layout BeginFrame
-תוצאות ניסוי
+ניסוי
 \family sans
 \series bold
 \shape up
@@ -1289,7 +1268,7 @@ sig(t)\Rightarrow spectogram\Rightarrow\Delta f(t)
 \color inherit
 2
 \numeric off
-: התאמת עקומה
+: תוצאות )התאמת עקומה(
 \begin_inset ERT
 status open
 
@@ -1489,7 +1468,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-תוצאות ניסוי
+ניסוי
 \family sans
 \series bold
 \shape up
@@ -1516,7 +1495,7 @@ status open
 \color inherit
 3
 \numeric off
-
+: מידע גולמי
 \begin_inset ERT
 status open
 
@@ -1560,7 +1539,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-תוצאות ניסוי
+ניסוי
 \family sans
 \series bold
 \shape up
@@ -1587,7 +1566,7 @@ status open
 \color inherit
 3
 \numeric off
-:>>><<<
+: תוצאות )התאמה לסינוס(
 \begin_inset ERT
 status open
 
@@ -1697,7 +1676,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-הרחבה: טכניקות/דגשים של עיבוד אות
+הרחבה: טכניקות של עיבוד אות
 \begin_inset ERT
 status open
 
