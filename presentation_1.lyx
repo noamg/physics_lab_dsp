@@ -1564,36 +1564,28 @@ hfill
 
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Formula $\omega=\dot{\theta}\approx Const.$
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\omega=\dot{\theta}\approx Const.;a_{c}=\omega^{2}R>>g
+\]
+
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename for article/circular_motion.png
-	lyxscale 25
-	scale 25
-
-\end_inset
-
-
-\end_layout
+	lyxscale 30
+	scale 30
 
 \end_inset
 
@@ -1653,12 +1645,23 @@ hfill
 
 \end_layout
 
-\begin_layout Itemize
-נוסחא רחוק רחוק
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Itemize
-ספקטוגרמה
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
@@ -1705,42 +1708,101 @@ hfill
 
 \end_layout
 
-\begin_layout Itemize
->>>סוגיה: נועם חושב שצריך להשאיר את ההסברים על גילויים לסוף, אז שאלה איך
- להסביר את משמעות הגרף של גילוי פאזה על גילוי התדר<<<
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
 \end_layout
 
-\begin_layout Itemize
-גרפים כמותיים של ניסוי
-\family sans
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-3
+\begin_layout Plain Layout
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Formula $\omega=\dot{\theta}\approx Const$
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-תוצאות כמותיות
+\begin_layout Plain Layout
+\begin_inset Formula $v_{r}=vsin(\theta)=R\omega sin(\theta)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $\Delta f(t)=-\frac{f_{src}R}{c}\omega sin(\omega t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Formula $c=309\pm45[\frac{m}{s}]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "45col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/circular_df_t.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout BeginFrame
