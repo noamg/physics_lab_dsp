@@ -564,7 +564,8 @@ height "1in"
 height_special "totalheight"
 status open
 
-\begin_layout Itemize
+\begin_layout Plain Layout
+\align center
 הרמקול משדר תדר 
 \begin_inset Formula $f_{src}=Const$
 \end_inset
@@ -573,7 +574,8 @@ status open
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
+\align center
 המדידה: המיקרופון מקליט את 
 \begin_inset Formula $sig(t)$
 \end_inset
@@ -581,8 +583,22 @@ status open
  
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
+\align center
 נפילה חופשית - גרר זניח
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+אנליזת ממדים 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ניתן למדוד 
+\begin_inset Formula $\frac{g}{c}$
+\end_inset
+
+
 \end_layout
 
 \end_inset
@@ -913,96 +929,6 @@ status open
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "45col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/regression_81.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "45col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Itemize
-\begin_inset Formula $v(t)=gt$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\Delta f(t)=f_{src}\frac{v}{c}=f_{src}\frac{g}{c}t$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\Rightarrow\frac{g}{c}=2.58\pm0.12\left[10^{-2}Hz\right]$
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout BeginFrame
 מערכת ניסוי
 \family sans
@@ -1071,36 +997,32 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-• כמו ניסוי
-\family sans
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
+\align center
+הרמקול משדר תדר 
+\begin_inset Formula $f_{src}=Const$
+\end_inset
+
+.
  
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
 \end_layout
 
 \begin_layout Plain Layout
-• נוסף מרחק אופקי 
+\align center
+המדידה: המיקרופון מקליט את 
+\begin_inset Formula $sig(t)$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+נפילה חופשית - גרר זניח
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+הסטה אופקית 
 \lang english
 
 \begin_inset Formula $d$
@@ -1108,7 +1030,7 @@ status open
 
 
 \lang hebrew
- בין הרמקול למיקרופון
+ בין הרמקול לציר הנפילה
 \end_layout
 
 \end_inset
@@ -1214,37 +1136,51 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "20col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/free_fall_angle.png
+	lyxscale 30
+	scale 20
+
+\end_inset
+
 
 \end_layout
 
 \end_inset
 
 
-\begin_inset space ~
+\begin_inset space \hfill{}
 \end_inset
 
 
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "79col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/89-spectrogram-freqExtrap.png
+	lyxscale 50
+	scale 32
+
+\end_inset
+
 
 \end_layout
 
@@ -1259,87 +1195,11 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
+\begin_inset Formula 
+\[
+sig(t)\Rightarrow spectogram\Rightarrow\Delta f(t)
+\]
 
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "25col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/free_fall_vertical.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "70col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/89-spectrogram-freqExtrap.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $sig(t)\Rightarrow spectogram\Rightarrow\Delta f(t)$
 \end_inset
 
 
@@ -1506,35 +1366,40 @@ height "1in"
 height_special "totalheight"
 status open
 
-\begin_layout Itemize
+\begin_layout Plain Layout
+\align center
 \begin_inset Formula $v(t)=gt$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
+\align center
 \begin_inset Formula $v_{r}=v\cdot sin(\theta(t))$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
+\align center
 \begin_inset Formula $\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
+\align center
 \begin_inset Formula $g=8.7\pm0.25\left[\frac{m}{sec^{2}}\right]$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
+\align center
 \begin_inset Formula $c=336\pm5\left[\frac{m}{sec}\right]$
 \end_inset
 
