@@ -68,8 +68,123 @@
 דן וקסלר ונועם גביש, בהנחיית ניר אורבך
 \end_layout
 
-\begin_layout NoteItem
-תמונה
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/car-doppler.JPG
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+נותר לעשות למצגת
+\end_layout
+
+\begin_layout Itemize
+רקע לשקופיות
+\end_layout
+
+\begin_layout Itemize
+להחליט סופית על השמות של השקופיות
+\end_layout
+
+\begin_layout Itemize
+להצליח לשים תמונה בשקופית הראשונה
+\end_layout
+
+\begin_layout Itemize
+לראות אם הגודל של הטקסט בגרפים מספיק
+\end_layout
+
+\begin_layout Itemize
+להעלים את ה- 
+\begin_inset Formula $caption$
+\end_inset
+
+באיורים, זה משאיר ":" מעצבנים כאלה
+\end_layout
+
+\begin_layout Itemize
+הצגה חיה
+\end_layout
+
+\begin_layout Itemize
+פרטים קטנים ברוב השקופיות
+\end_layout
+
+\begin_layout Itemize
+לארגן את שקופית הדיון
+\end_layout
+
+\begin_layout Itemize
+החלטה אסטרטגית לגבי רציונל ההצגה: נועם חושב שצריך להשאיר את רוב התוכן לגבי
+ עיבוד אות לסוף
+\end_layout
+
+\begin_layout Itemize
+הערכות זמנים וחלוקת תוכן
+\end_layout
+
+\begin_layout BeginFrame
+תקציר
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+תיקוף איכותי של אפקט דופלר עבור תנועה חד ממדית, דו ממדית
+\end_layout
+
+\begin_layout Itemize
+תיקוף כמותי ע"י מדידת תאוצת הכובד 
+\begin_inset Formula $g$
+\end_inset
+
+, מהירות הקול 
+\begin_inset Formula $c$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+מערכת ניסוי פשוטה, ושימוש בעיבוד אות
 \end_layout
 
 \begin_layout BeginFrame
@@ -84,6 +199,13 @@ status open
 hfill
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{\Delta f}{f_{src}}=\frac{v_{rel}}{c}$
 \end_inset
 
 
@@ -108,10 +230,6 @@ status open
 
 \end_layout
 
-\end_inset
-
-
-\begin_inset Formula $\frac{\Delta f}{f_{src}}=\frac{v_{rel}}{c}$
 \end_inset
 
 
@@ -160,7 +278,7 @@ hfill
 \uwave off
 \noun off
 \color none
- דו ממדי: 
+ דו ממדי )עבור חזיתות גל כדוריות(: 
 \begin_inset Formula $v_{effective}=v_{rad}$
 \end_inset
 
@@ -238,6 +356,60 @@ hfill
 
 \end_layout
 
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+תמונת סיגנל בציר הזמן ובציר התדר, צד לצד
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+t_{m}=m\Delta T,f_{n}=n\frac{1}{N\Delta T}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+g(t_{m})=\sum_{n=0}^{N-1}\frac{1}{N}G(f_{n})\exp(i2\pi f_{n}t_{m})
+\]
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+G(f_{n})=\sum_{m=0}^{N-1}g(t_{m})\exp(-i2\pi f_{n}t_{m})
+\]
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout BeginFrame
 רקע תיאורטי: ספקטוגרמה
 \begin_inset ERT
@@ -253,6 +425,40 @@ hfill
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/model-spectrogram.png
+	lyxscale 40
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ניתוח תדרים למקטעי זמן - מאפשר מעקב אחרי השתנות התדר במהלך הזמן>>>דן<<<
 \end_layout
 
 \begin_layout BeginFrame
@@ -273,12 +479,279 @@ hfill
 \end_layout
 
 \begin_layout Itemize
+>>>דן:האם להפריד את ההצגה של ניסוי
+\family sans
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+,
+\family sans
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\family sans
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מבחינת השקף?<<<
+\end_layout
+
+\begin_layout Itemize
 נפילה חופשית - חיכוך זניח
+\end_layout
+
+\begin_layout Itemize
+הרמקול משדר תדר 
+\begin_inset Formula $f_{src}=Const.$
+\end_inset
+
+
 \end_layout
 
 \begin_layout Itemize
 המדידה: המיקרופון מקליט את 
 \begin_inset Formula $sig(t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/free_fall_vert&angle.png
+	lyxscale 40
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+תוצאות: ניסוי
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/vertfreefallspectro_wtxt.png
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+>>>אולי כדאי לשים פה שוב את התמונה של הנפילה החופשית<<< )שתי תמונות זו לצד
+ זו(
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $sig(t)\Rightarrow spectogram\Rightarrow\Delta f(t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+תוצאות ניסוי
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\numeric off
+:רגרסיה לינארית
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $v(t)$
+\end_inset
+
+ לפי קינמטיקה של נפילה חופשית
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta f(t)=f_{src}\frac{v}{c}=f_{src}\frac{g}{c}t\Rightarrow linear-regression\Rightarrow\frac{g}{c}=2.58\pm0.12\left[10^{-2}Hertz\right]$
 \end_inset
 
 
@@ -299,8 +772,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename for article/free_fall_vert&angle.png
-	scale 30
+	filename for article/regression_81.png
+	lyxscale 25
+	scale 25
 
 \end_inset
 
@@ -322,7 +796,34 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-תוצאות
+תוצאות ניסוי
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+
 \begin_inset ERT
 status open
 
@@ -331,6 +832,155 @@ status open
 
 \backslash
 hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/89-spectrogram-freqExtrap.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $sig(t)\Rightarrow spectogram\Rightarrow\Delta f(t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+>>>אולי לשים שוב תמונה של נפילה חופשית עם הסחה<<<
+\end_layout
+
+\begin_layout BeginFrame
+תוצאות ניסוי
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+2
+\numeric off
+: התאמת עקומה
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $v(t)$
+\end_inset
+
+ לפי קינמטיקה של נפילה חופשית
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $g=,c=$
+\end_inset
+
+
+\begin_inset Formula $\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}\Rightarrow curv-fit\Rightarrow$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/fit example.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
 \end_layout
 
 \end_inset
@@ -339,7 +989,34 @@ hfill
 \end_layout
 
 \begin_layout BeginFrame
-דיון
+מערכת ניסוי
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+
 \begin_inset ERT
 status open
 
@@ -353,6 +1030,259 @@ hfill
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\omega=\dot{\theta}\approx Const.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/circular_motion.png
+	lyxscale 25
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+תוצאות ניסוי
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+נוסחא רחוק רחוק
+\end_layout
+
+\begin_layout Itemize
+ספקטוגרמה
+\end_layout
+
+\begin_layout BeginFrame
+תוצאות ניסוי
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\numeric off
+:>>><<<
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+>>>סוגיה: נועם חושב שצריך להשאיר את ההסברים על גילויים לסוף, אז שאלה איך
+ להסביר את משמעות הגרף של גילוי פאזה על גילוי התדר<<<
+\end_layout
+
+\begin_layout Itemize
+גרפים כמותיים של ניסוי
+\family sans
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+3
+\end_layout
+
+\begin_layout Itemize
+תוצאות כמותיות
+\end_layout
+
+\begin_layout BeginFrame
+הרחבה: טכניקות/דגשים של עיבוד אות
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+תדר נייקוויסט שלנו
+\end_layout
+
+\begin_layout Itemize
+משך זמן לרזולוציית תדר, רזולוציית מהירות
+\end_layout
+
+\begin_layout Itemize
+התאכבות, רב נתיב
+\end_layout
+
+\begin_layout Itemize
+מציאת תדר מיטבי
+\end_layout
+
+\begin_layout Itemize
+פילטר תדר
+\end_layout
+
+\begin_layout Itemize
+גילויים
+\end_layout
+
+\begin_layout BeginFrame
+דיון/סיכום
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+תיקוף כמותי, איכותי, איזה יופי לנו
+\end_layout
+
+\begin_layout Itemize
+מערכת ניסוי פשוטה
+\end_layout
+
+\begin_layout Itemize
+הרחבה על שגיאות מדידה>>>?<<<
+\end_layout
+
+\begin_layout Itemize
+משהו אפליקטיבי משהו להמשך )לא רחוק רחוק?(
 \end_layout
 
 \begin_layout EndFrame
