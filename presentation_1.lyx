@@ -69,27 +69,67 @@
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
+
+\lang english
+\begin_inset ERT
 status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+setbeamercolor{background canvas}{bg=}
+\end_layout
 
 \begin_layout Plain Layout
 
 \end_layout
 
 \begin_layout Plain Layout
-\begin_inset Caption
+
+%
+\backslash
+setbeamertemplate{background}{
+\backslash
+includegraphics[width=1.0
+\backslash
+paperwidth,height=1.0
+\backslash
+paperheight]{car-doppler.jpg}}
+\end_layout
 
 \begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/car-doppler.JPG
-	scale 30
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \end_inset
 
 
 \end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename for article/car-doppler.JPG
+	scale 30
 
 \end_inset
 
@@ -106,7 +146,7 @@ status open
 \end_layout
 
 \begin_layout Itemize
-רקע לשקופיות
+רקע לשקופיות )יש תשתית(
 \end_layout
 
 \begin_layout Itemize
@@ -114,7 +154,11 @@ status open
 \end_layout
 
 \begin_layout Itemize
-להצליח לשים תמונה בשקופית הראשונה
+להצליח לשים תמונה בשקופית הראשונה )הפתרון, כנראה טמון פה: 
+\lang english
+http://wiki.lyx.org/Examples/Beamer
+\lang hebrew
+(
 \end_layout
 
 \begin_layout Itemize
