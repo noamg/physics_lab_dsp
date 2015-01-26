@@ -558,10 +558,6 @@ hfill
 \end_layout
 
 \begin_layout Standard
-
-\end_layout
-
-\begin_layout Standard
 \begin_inset Box Frameless
 position "t"
 hor_pos "c"
@@ -604,7 +600,33 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-מערכת הניסוי
+מערכת ניסוי
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+1
+\lang hebrew
+
 \begin_inset ERT
 status open
 
@@ -618,91 +640,6 @@ hfill
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
->>>דן:האם להפריד את ההצגה של ניסוי
-\family sans
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-1
-\numeric off
-,
-\family sans
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-2
-\family sans
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-מבחינת השקף?<<<
-\end_layout
-
-\begin_layout Itemize
-נפילה חופשית - חיכוך זניח
 \end_layout
 
 \begin_layout Itemize
@@ -722,24 +659,28 @@ hfill
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Float figure
-wide false
-sideways false
+נפילה חופשית - חיכוך זניח
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
 \begin_inset Graphics
-	filename for article/free_fall_vert&angle.png
-	lyxscale 40
-	scale 20
-
-\end_inset
-
-
-\end_layout
+	filename for article/free_fall_vertical.png
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -778,8 +719,31 @@ status open
 \noun default
 \color inherit
 1
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
 \numeric off
-
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+מידע גולמי
 \begin_inset ERT
 status open
 
@@ -817,13 +781,20 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "25col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/free_fall_vertical.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
 
 \end_layout
 
@@ -841,40 +812,17 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "70col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename for article/vertfreefallspectro_wtxt.png
-	lyxscale 20
-	scale 20
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -886,18 +834,9 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
->>>אולי כדאי לשים פה שוב את התמונה של הנפילה החופשית<<< )שתי תמונות זו לצד
- זו(
 \end_layout
 
 \begin_layout Itemize
@@ -980,6 +919,13 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/regression_81.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
 
 \end_layout
 
@@ -1003,53 +949,22 @@ height "1in"
 height_special "totalheight"
 status open
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
+\begin_layout Itemize
+\begin_inset Formula $v(t)=gt$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $v(t)$
-\end_inset
-
- לפי קינמטיקה של נפילה חופשית
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $\Delta f(t)=f_{src}\frac{v}{c}=f_{src}\frac{g}{c}t\Rightarrow linear-regression\Rightarrow\frac{g}{c}=2.58\pm0.12\left[10^{-2}Hertz\right]$
+\begin_inset Formula $\Delta f(t)=f_{src}\frac{v}{c}=f_{src}\frac{g}{c}t$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/regression_81.png
-	lyxscale 25
-	scale 25
-
+\begin_inset Formula $\Rightarrow\frac{g}{c}=2.58\pm0.12\left[10^{-2}Hz\right]$
 \end_inset
 
 
@@ -1057,10 +972,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1135,13 +1046,20 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "25col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/free_fall_vertical.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
 
 \end_layout
 
@@ -1159,44 +1077,17 @@ has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "70col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
 \begin_inset Graphics
 	filename for article/89-spectrogram-freqExtrap.png
-	lyxscale 25
-	scale 25
+	lyxscale 30
+	scale 30
 
 \end_inset
 
@@ -1205,10 +1096,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1222,10 +1109,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Itemize
->>>אולי לשים שוב תמונה של נפילה חופשית עם הסחה<<<
 \end_layout
 
 \begin_layout BeginFrame
@@ -1301,6 +1184,13 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/fit example.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
 
 \end_layout
 
@@ -1324,57 +1214,36 @@ height "1in"
 height_special "totalheight"
 status open
 
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
+\begin_layout Itemize
+\begin_inset Formula $v(t)=gt$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Formula $v(t)$
-\end_inset
-
- לפי קינמטיקה של נפילה חופשית
-\end_layout
-
-\begin_layout Itemize
-\begin_inset Formula $g=,c=$
-\end_inset
-
-
-\begin_inset Formula $\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}\Rightarrow curv-fit\Rightarrow$
+\begin_inset Formula $v_{r}=v\cdot sin(\theta(t))$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Itemize
-\begin_inset Float figure
-wide false
-sideways false
-status open
+\begin_inset Formula $\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}$
+\end_inset
 
-\begin_layout Plain Layout
 
 \end_layout
 
-\begin_layout Plain Layout
-\begin_inset Caption
+\begin_layout Itemize
+\begin_inset Formula $g=$
+\end_inset
 
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/fit example.png
-	lyxscale 25
-	scale 25
 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $c=$
 \end_inset
 
 
@@ -1382,10 +1251,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1744,6 +1609,10 @@ fn
 
 \begin_layout Standard
 דיון: חדר אקוסטי 
+\end_layout
+
+\begin_layout Standard
+תמונות נפילה חופשית - לחתוך רקע לבן בצד
 \end_layout
 
 \begin_layout EndFrame
