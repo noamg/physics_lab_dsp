@@ -471,7 +471,7 @@ status open
 \end_inset
 
 
-\begin_inset space ~
+\begin_inset space \hspace*{\fill}
 \end_inset
 
 
@@ -579,7 +579,7 @@ t_{m}=m\Delta T,f_{n}=n\frac{1}{N\Delta T}
 \begin_layout Standard
 \begin_inset Formula 
 \[
-g(t_{m})=\sum_{n=0}^{N-1}\frac{1}{N}G(f_{n})\exp(i2\pi f_{n}t_{m})
+sig(t_{m})=\sum_{n=0}^{N-1}\frac{1}{N}F(f_{n})\exp(i2\pi f_{n}t_{m})
 \]
 
 \end_inset
@@ -587,7 +587,7 @@ g(t_{m})=\sum_{n=0}^{N-1}\frac{1}{N}G(f_{n})\exp(i2\pi f_{n}t_{m})
 
 \begin_inset Formula 
 \[
-G(f_{n})=\sum_{m=0}^{N-1}g(t_{m})\exp(-i2\pi f_{n}t_{m})
+F(f_{n})=\sum_{m=0}^{N-1}sig(t_{m})\exp(-i2\pi f_{n}t_{m})
 \]
 
 \end_inset
@@ -613,27 +613,27 @@ hfill
 \end_layout
 
 \begin_layout Standard
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
+\begin_inset Float figure
+wide false
+sideways false
 status open
+
+\begin_layout Plain Layout
+
+\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename for article/model-spectrogram.png
-	lyxscale 50
-	scale 50
+	lyxscale 30
+	scale 30
 
 \end_inset
 
+
+\end_layout
+
+\begin_layout Plain Layout
 
 \end_layout
 
@@ -643,7 +643,11 @@ status open
 \end_layout
 
 \begin_layout Itemize
-ניתוח תדרים למקטעי זמן - מאפשר מעקב אחרי השתנות התדר במהלך הזמן
+ניתוח 
+\begin_inset Formula $FFT$
+\end_inset
+
+לכל מקטע זמן: מעקב אחרי שינוי התדרים
 \end_layout
 
 \begin_layout Itemize
