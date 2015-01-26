@@ -852,13 +852,13 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "35col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -891,18 +891,18 @@ status open
 \end_inset
 
 
-\begin_inset space \hspace*{\fill}
+\begin_inset space \hfill{}
 \end_inset
 
 
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "55col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -912,7 +912,7 @@ status open
 \begin_inset Graphics
 	filename for article/regression_81.png
 	lyxscale 30
-	scale 30
+	scale 35
 
 \end_inset
 
@@ -923,6 +923,62 @@ status open
 
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+בדיקה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\Delta f
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/regression_81.png
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{g}{c}=jjj
+\]
 
 \end_inset
 
@@ -1257,110 +1313,13 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "45col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "45col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/fit example-wErrbar.png
-	lyxscale 30
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "45col%"
+width "35col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -1401,6 +1360,37 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Formula $c=336\pm5\left[\frac{m}{sec}\right]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "55col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/fit example-wErrbar.png
+	lyxscale 30
+	scale 20
+
 \end_inset
 
 
@@ -1478,6 +1468,7 @@ sideways false
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename for article/circular_motion.png
 	lyxscale 30
@@ -1552,10 +1543,11 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Graphics
 	filename for article/rotation_spectrogram.png
-	lyxscale 50
-	scale 50
+	lyxscale 35
+	scale 35
 
 \end_inset
 
@@ -1618,24 +1610,21 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "35col%"
 special "none"
 height "1in"
 height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Formula $\omega=\dot{\theta}\approx Const$
 \end_inset
 
@@ -1643,6 +1632,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Formula $v_{r}=vsin(\theta)=R\omega sin(\theta)$
 \end_inset
 
@@ -1650,6 +1640,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Formula $\Delta f(t)=-\frac{f_{src}R}{c}\omega sin(\omega t)$
 \end_inset
 
@@ -1657,6 +1648,7 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
 \begin_inset Formula $c=309\pm45[\frac{m}{s}]$
 \end_inset
 
@@ -1671,13 +1663,13 @@ status open
 
 
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
 use_parbox 0
 use_makebox 0
-width "45col%"
+width "55col%"
 special "none"
 height "1in"
 height_special "totalheight"
@@ -1687,7 +1679,7 @@ status open
 \begin_inset Graphics
 	filename for article/circular_df_t.png
 	lyxscale 30
-	scale 30
+	scale 35
 
 \end_inset
 
@@ -1696,10 +1688,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
