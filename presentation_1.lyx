@@ -407,10 +407,6 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
 \begin_inset Caption
 
 \begin_layout Plain Layout
@@ -476,10 +472,6 @@ hfill
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Caption
@@ -1327,6 +1319,61 @@ hfill
 
 \begin_layout Itemize
 משהו אפליקטיבי משהו להמשך )לא רחוק רחוק?(
+\end_layout
+
+\begin_layout BeginFrame
+טלכטכלטכל
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+תהליך עיבוד
+\end_layout
+
+\begin_layout Standard
+ארור-ברים לגרפים, להפריד לנקודות
+\end_layout
+
+\begin_layout Standard
+תמונה של מכונית
+\end_layout
+
+\begin_layout Standard
+איכותי/כמותי
+\end_layout
+
+\begin_layout Standard
+להוריד מעגל מתמונה של רדיאלי + פונטים
+\end_layout
+
+\begin_layout Standard
+פורייה - להחליף סימון 
+\lang english
+fn
+\end_layout
+
+\begin_layout Standard
+ב"רקע תיאורטי ספקט" להוסיף בולט תדר רגעי
+\end_layout
+
+\begin_layout Standard
+להפריד מערכת 1/2
+\end_layout
+
+\begin_layout Standard
+דיון: חדר אקוסטי 
 \end_layout
 
 \begin_layout EndFrame
