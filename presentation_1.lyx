@@ -111,36 +111,6 @@ paperheight]{car-doppler.jpg}}
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename for article/car-doppler.JPG
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout BeginFrame
 נותר לעשות למצגת
 \end_layout
@@ -287,7 +257,7 @@ status open
 
 
 \begin_inset Box Frameless
-position "t"
+position "c"
 hor_pos "c"
 has_inner_box 1
 inner_pos "t"
@@ -325,8 +295,12 @@ status open
 
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Formula $\frac{\Delta f}{f_{src}}=\frac{v}{c}$
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{\Delta f}{f_{src}}=\frac{v}{c}
+\]
+
 \end_inset
 
 
@@ -381,41 +355,9 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-
-\family sans
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\family sans
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
 \begin_inset Graphics
 	filename for article/radial_doppler_2D_2.png
-	scale 30
-
-\end_inset
-
-
-\end_layout
+	scale 70
 
 \end_inset
 
@@ -451,46 +393,10 @@ sideways false
 status open
 
 \begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "45col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset space \hspace*{\fill}
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "45col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
+\begin_inset Graphics
+	filename for article/Sine-Wave-Half-Sampled.png
+	lyxscale 50
+	scale 20
 
 \end_inset
 
@@ -503,72 +409,9 @@ status open
 \end_layout
 
 \begin_layout Standard
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "100col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "45col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\begin_inset space ~
-\end_inset
-
-
-\begin_inset Box Frameless
-position "t"
-hor_pos "c"
-has_inner_box 1
-inner_pos "t"
-use_parbox 0
-use_makebox 0
-width "45col%"
-special "none"
-height "1in"
-height_special "totalheight"
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
 \begin_inset Formula 
 \[
-t_{m}=m\Delta T,f_{n}=n\frac{1}{N\Delta T}
+t_{m}=m\Delta T;f_{n}=n\frac{1}{N\Delta T}
 \]
 
 \end_inset
