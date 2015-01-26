@@ -248,42 +248,6 @@ hfill
 
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Formula $\frac{\Delta f}{f_{src}}=\frac{v_{rel}}{c}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/doppler_shift_all.png
-	scale 30
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
 \begin_inset Box Frameless
 position "t"
@@ -313,6 +277,13 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/car-doppler.JPG
+	lyxscale 20
+	scale 20
+
+\end_inset
+
 
 \end_layout
 
@@ -337,6 +308,13 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/doppler_shift_all.png
+	lyxscale 20
+	scale 20
+
+\end_inset
+
 
 \end_layout
 
@@ -345,6 +323,13 @@ status open
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\frac{\Delta f}{f_{src}}=\frac{v}{c}$
 \end_inset
 
 
@@ -397,10 +382,6 @@ hfill
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 
@@ -530,29 +511,6 @@ status open
 \end_inset
 
 
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Caption
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-תמונת סיגנל בציר הזמן ובציר התדר, צד לצד
-\end_layout
-
-\end_inset
-
-
 \begin_inset Formula 
 \[
 t_{m}=m\Delta T,f_{n}=n\frac{1}{N\Delta T}
@@ -600,19 +558,28 @@ hfill
 \end_layout
 
 \begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
 
-\begin_layout Plain Layout
-\begin_inset Caption
+\end_layout
+
+\begin_layout Standard
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename for article/model-spectrogram.png
-	lyxscale 40
-	scale 40
+	lyxscale 50
+	scale 50
 
 \end_inset
 
@@ -624,9 +591,16 @@ status open
 
 \end_layout
 
+\begin_layout Itemize
+ניתוח תדרים למקטעי זמן - מאפשר מעקב אחרי השתנות התדר במהלך הזמן
+\end_layout
+
+\begin_layout Itemize
+תדר רגעי: 
+\begin_inset Formula $f(t)$
 \end_inset
 
-ניתוח תדרים למקטעי זמן - מאפשר מעקב אחרי השתנות התדר במהלך הזמן>>>דן<<<
+
 \end_layout
 
 \begin_layout BeginFrame
@@ -821,8 +795,6 @@ hfill
 
 \end_layout
 
-
-
 \begin_layout Standard
 \begin_inset Box Frameless
 position "t"
@@ -888,8 +860,6 @@ status open
 
 
 \end_layout
-
-
 
 \begin_layout Itemize
 \begin_inset Float figure
@@ -1046,7 +1016,6 @@ status open
 
 
 \end_layout
-
 
 \begin_layout Itemize
 \begin_inset Formula $v(t)$
@@ -1210,7 +1179,6 @@ status open
 
 \end_layout
 
-
 \begin_layout Itemize
 \begin_inset Float figure
 wide false
@@ -1369,7 +1337,6 @@ status open
 
 
 \end_layout
-
 
 \begin_layout Itemize
 \begin_inset Formula $v(t)$
