@@ -357,7 +357,6 @@ status open
 \begin_layout Plain Layout
 \begin_inset Graphics
 	filename for article/radial_doppler_2D_2.png
-	scale 70
 
 \end_inset
 
@@ -411,7 +410,7 @@ status open
 \begin_layout Standard
 \begin_inset Formula 
 \[
-t_{m}=m\Delta T;f_{n}=n\frac{1}{N\Delta T}
+t_{m}=m\Delta T\,\,;\,\, f_{n}=n\frac{1}{N\Delta T}
 \]
 
 \end_inset
@@ -485,15 +484,17 @@ status open
 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
+\align center
 ניתוח 
 \begin_inset Formula $FFT$
 \end_inset
 
-לכל מקטע זמן: מעקב אחרי שינוי התדרים
+ לכל מקטע זמן: מעקב אחרי שינוי התדרים
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Standard
+\align center
 תדר רגעי: 
 \begin_inset Formula $f(t)$
 \end_inset
@@ -772,8 +773,12 @@ status open
 
 \end_layout
 
-\begin_layout Itemize
-\begin_inset Formula $sig(t)\Rightarrow spectogram\Rightarrow\Delta f(t)$
+\begin_layout Standard
+\begin_inset Formula 
+\[
+sig(t)\Rightarrow spectogram\Rightarrow\Delta f(t)
+\]
+
 \end_inset
 
 
@@ -844,25 +849,23 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
-\align right
-עיכעיכגדכ 
-\end_layout
-
-\begin_layout Itemize
+\align center
 \begin_inset Formula $v(t)=gt$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
+\align center
 \begin_inset Formula $\Delta f(t)=f_{src}\frac{v}{c}=f_{src}\frac{g}{c}t$
 \end_inset
 
 
 \end_layout
 
-\begin_layout Itemize
+\begin_layout Plain Layout
+\align center
 \begin_inset Formula $\Rightarrow\frac{g}{c}=2.58\pm0.12\left[10^{-2}Hz\right]$
 \end_inset
 
@@ -872,7 +875,7 @@ status open
 \end_inset
 
 
-\begin_inset space ~
+\begin_inset space \hspace*{\fill}
 \end_inset
 
 
@@ -890,6 +893,13 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/regression_81.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
 
 \end_layout
 
@@ -1677,6 +1687,13 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/rotation_spectrogram.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
 
 \end_layout
 
