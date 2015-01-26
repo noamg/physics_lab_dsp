@@ -596,7 +596,7 @@ F(f_{n})=\sum_{m=0}^{N-1}sig(t_{m})\exp(-i2\pi f_{n}t_{m})
 \end_layout
 
 \begin_layout BeginFrame
-רקע תיאורטי: ספקטוגרמה
+רקע תיאורטי: ספקטרוגרמה
 \begin_inset ERT
 status open
 
@@ -700,7 +700,6 @@ hfill
 \end_layout
 
 \begin_layout Standard
-אאא
 \begin_inset Float figure
 wide false
 sideways false
@@ -721,8 +720,8 @@ height "1in"
 height_special "totalheight"
 status open
 
-\begin_layout Plain Layout
-• הרמקול משדר תדר 
+\begin_layout Itemize
+הרמקול משדר תדר 
 \begin_inset Formula $f_{src}=Const$
 \end_inset
 
@@ -730,16 +729,16 @@ status open
  
 \end_layout
 
-\begin_layout Plain Layout
-• המדידה: המיקרופון מקליט את 
+\begin_layout Itemize
+המדידה: המיקרופון מקליט את 
 \begin_inset Formula $sig(t)$
 \end_inset
 
  
 \end_layout
 
-\begin_layout Plain Layout
-• נפילה חופשית - חיכוך זניח
+\begin_layout Itemize
+נפילה חופשית - גרר זניח
 \end_layout
 
 \end_inset
@@ -788,7 +787,7 @@ status open
 
 \end_inset
 
-בבב
+
 \end_layout
 
 \begin_layout BeginFrame
@@ -1002,6 +1001,28 @@ height_special "totalheight"
 status open
 
 \begin_layout Plain Layout
+\align right
+עיכעיכגדכ 
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $v(t)=gt$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Delta f(t)=f_{src}\frac{v}{c}=f_{src}\frac{g}{c}t$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\Rightarrow\frac{g}{c}=2.58\pm0.12\left[10^{-2}Hz\right]$
+\end_inset
+
 
 \end_layout
 
