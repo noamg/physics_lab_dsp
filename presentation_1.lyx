@@ -1366,9 +1366,9 @@ status open
 
 \begin_layout Plain Layout
 \begin_inset Graphics
-	filename for article/fit example-wErrbar.png
+	filename for article/fit example-wErrbar_b.png
 	lyxscale 30
-	scale 20
+	scale 23.5
 
 \end_inset
 
@@ -1782,6 +1782,93 @@ fn
 
 \begin_layout Standard
 להגדיל שוליים
+\end_layout
+
+\begin_layout BeginFrame
+שקופיות גיבוי: רב-נתיב
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename for article/multipath_wtext.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+שקופית גיבוי: אי-וודאות זמן-תדר
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename for article/freq_resolution_comb.png
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout EndFrame
