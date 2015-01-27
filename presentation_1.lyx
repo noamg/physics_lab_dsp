@@ -1785,7 +1785,7 @@ fn
 \end_layout
 
 \begin_layout BeginFrame
-שקופיות גיבוי: רב-נתיב
+רב-נתיב
 \begin_inset ERT
 status open
 
@@ -1829,7 +1829,35 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-שקופית גיבוי: אי-וודאות זמן-תדר
+אי-וודאות זמן-תדר
+\family sans
+\series bold
+\shape up
+\size largest
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color blue
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+)
+\numeric on
+1
+\numeric off
+(
 \begin_inset ERT
 status open
 
@@ -1855,7 +1883,7 @@ status open
 \align center
 \begin_inset Graphics
 	filename for article/freq_resolution_comb.png
-	scale 40
+	scale 50
 
 \end_inset
 
@@ -1863,8 +1891,70 @@ status open
 \end_layout
 
 \begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename for article/aliasing.jpg
+	lyxscale 40
+	scale 22
+
+\end_inset
+
 
 \end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+אי-וודאות זמן-תדר )
+\numeric on
+2
+\numeric off
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/uncertainty time-freq.png
+	lyxscale 42
+	scale 35
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Formula 
+\[
+\delta t=\sqrt{\frac{c}{f_{src}g}}\Leftarrow\begin{cases}
+\delta\Delta f=\frac{1}{\delta t}\\
+\delta\Delta f=f_{src}\frac{\delta v}{c}=f_{src}\frac{g\delta t}{c}
+\end{cases}
+\]
 
 \end_inset
 
