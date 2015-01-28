@@ -112,38 +112,6 @@ paperheight]{600px-Doppler_effect_svg.png}}
 \end_layout
 
 \begin_layout BeginFrame
-נותר לעשות למצגת
-\end_layout
-
-\begin_layout Itemize
-רקע לשקופיות )יש תשתית(
-\end_layout
-
-\begin_layout Itemize
-להצליח לשים תמונה בשקופית הראשונה )הפתרון, כנראה טמון פה: 
-\lang english
-http://wiki.lyx.org/Examples/Beamer
-\lang hebrew
-(
-\end_layout
-
-\begin_layout Itemize
-לראות אם הגודל של הטקסט בגרפים מספיק
-\end_layout
-
-\begin_layout Itemize
-הצגה חיה
-\end_layout
-
-\begin_layout Itemize
-פרטים קטנים ברוב השקופיות
-\end_layout
-
-\begin_layout Itemize
-הערכות זמנים וחלוקת תוכן
-\end_layout
-
-\begin_layout BeginFrame
 תקציר
 \begin_inset ERT
 status open
