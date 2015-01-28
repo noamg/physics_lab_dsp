@@ -61,7 +61,7 @@
 \begin_body
 
 \begin_layout Title
-עיבוד אותות, הסחת דופלר
+עיבוד דופלר, הסחת אותות
 \end_layout
 
 \begin_layout Author
@@ -87,7 +87,7 @@ setbeamercolor{background canvas}{bg=}
 
 \begin_layout Plain Layout
 
-
+%
 \backslash
 setbeamertemplate{background}{
 \backslash
