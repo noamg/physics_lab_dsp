@@ -87,7 +87,7 @@ setbeamercolor{background canvas}{bg=}
 
 \begin_layout Plain Layout
 
-%
+
 \backslash
 setbeamertemplate{background}{
 \backslash
@@ -95,7 +95,7 @@ includegraphics[width=1.0
 \backslash
 paperwidth,height=1.0
 \backslash
-paperheight]{car-doppler.jpg}}
+paperheight]{600px-Doppler_effect_svg.png}}
 \end_layout
 
 \begin_layout Plain Layout
@@ -1037,8 +1037,7 @@ status open
 \begin_inset Formula $f_{src}=Const$
 \end_inset
 
-.
- 
+
 \end_layout
 
 \begin_layout Plain Layout
