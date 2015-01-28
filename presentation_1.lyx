@@ -481,19 +481,6 @@ status open
 
 \end_layout
 
-\begin_layout Standard
->>><<<דיון על רזולוצייה שקופית נפרדת גרפים מתוך
-\end_layout
-
-\begin_layout Standard
-http://cnx.org/contents/f23a2fc1-ce40-4f6a-b462-cd86c6e9f18f@3/Generalizations_of
-_the_Basic_M
-\end_layout
-
-\begin_layout Standard
-להדגיש: זה המקור של שגיאות המדידה
-\end_layout
-
 \begin_layout BeginFrame
 מערכת ניסוי
 \family sans
@@ -1640,7 +1627,7 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-הרחבה: טכניקות של עיבוד אות
+קושי: החזרות של הסיגנל מעצמים סמוכים
 \begin_inset ERT
 status open
 
@@ -1656,28 +1643,80 @@ hfill
 
 \end_layout
 
-\begin_layout Itemize
-תדר נייקוויסט שלנו
+\begin_layout Standard
+התמודדות בסיסית: התרחקות מהקיר
 \end_layout
 
-\begin_layout Itemize
-משך זמן לרזולוציית תדר, רזולוציית מהירות הרחבה על שגיאות מדידה>>>?<<<
+\begin_layout Standard
+כדאי לעבור לחדר אקוסטי
 \end_layout
 
-\begin_layout Itemize
-התאכבות, רב נתיב
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename for article/multipath_wtext.png
+	lyxscale 50
+	scale 40
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-מציאת תדר מיטבי
+\end_inset
+
+
 \end_layout
 
-\begin_layout Itemize
-פילטר תדר
+\begin_layout BeginFrame
+מגבלת רזולוציית זמן ותדר בניתוח ספקטוגרמה
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
 \end_layout
 
-\begin_layout Itemize
-גילויים
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+גרפים מתוך
+\end_layout
+
+\begin_layout Standard
+http://cnx.org/contents/f23a2fc1-ce40-4f6a-b462-cd86c6e9f18f@3/Generalizations_of
+_the_Basic_M
+\end_layout
+
+\begin_layout Standard
+להדגיש: זה המקור של שגיאות המדידה
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\delta f=\frac{1}{\Delta T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+אולי נוסחא מתוך השקופית אי וודאות זמן תדר )
+\numeric on
+2
+\numeric off
+(
 \end_layout
 
 \begin_layout BeginFrame
@@ -1698,15 +1737,19 @@ hfill
 \end_layout
 
 \begin_layout Itemize
-תיקוף כמותי, איכותי, איזה יופי לנו
+תיקוף כמותי ואיכותי של אפקט דופלר
 \end_layout
 
 \begin_layout Itemize
-מערכת ניסוי פשוטה
+מערכת ניסוי פשוטה, בזכות כלי עיבוד אות
 \end_layout
 
 \begin_layout Itemize
-להמשך: להעמיק בניסוי תנועה מעגלית ללא קירוב מקור רחוק
+להמשך: להעמיק בניסוי תנועה מעגלית )
+\numeric on
+3
+\numeric off
+( ללא קירוב מקור רחוק
 \end_layout
 
 \begin_layout Itemize
@@ -1749,46 +1792,6 @@ fn
 \end_layout
 
 \begin_layout BeginFrame
-רב-נתיב
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hfill
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Graphics
-	filename for article/multipath_wtext.png
-	lyxscale 50
-	scale 40
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
 
 \end_layout
 
