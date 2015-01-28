@@ -333,6 +333,61 @@ hfill
 \end_layout
 
 \begin_layout Standard
+>>>כנראה להוריד שקופית לחלוטין, או שזו תהיה שקופית "דגימה" עם אות בציר הזמן,
+ שקופית קצרה
+\family sans
+\series medium
+\shape up
+\size normal
+\emph off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\numeric on
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+10
+\family sans
+\series medium
+\shape up
+\size normal
+\emph off
+\numeric off
+\bar no
+\strikeout off
+\uuline off
+\uwave off
+\noun off
+\color none
+ 
+\family default
+\series default
+\shape default
+\size default
+\emph default
+\bar default
+\strikeout default
+\uuline default
+\uwave default
+\noun default
+\color inherit
+שניות<<<
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1685,6 +1740,10 @@ _the_Basic_M
 2
 \numeric off
 (
+\end_layout
+
+\begin_layout Standard
+טרייד-אוף
 \end_layout
 
 \begin_layout BeginFrame
