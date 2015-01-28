@@ -277,7 +277,7 @@ status open
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\frac{\Delta f}{f_{src}}=\frac{v}{c}
+\frac{\Delta f}{f_{src}}=\frac{v}{c}\Rightarrow\Delta f\propto v
 \]
 
 \end_inset
@@ -434,14 +434,36 @@ hfill
 \end_layout
 
 \begin_layout Standard
+\align center
+באיזה אופן משתנה התדר כתלות בזמן? 
+\begin_inset Formula $\Leftarrow$
+\end_inset
+
+ניתוח 
+\begin_inset Formula $FFT$
+\end_inset
+
+ לכל מקטע זמן באורך 
+\begin_inset Formula $\Delta T$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+תדר רגעי: 
+\begin_inset Formula $f(t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
 status open
-
-\begin_layout Plain Layout
-
-\end_layout
 
 \begin_layout Plain Layout
 \begin_inset Graphics
@@ -454,31 +476,22 @@ status open
 
 \end_layout
 
-\begin_layout Plain Layout
-
-\end_layout
-
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-\align center
-ניתוח 
-\begin_inset Formula $FFT$
-\end_inset
-
- לכל מקטע זמן: מעקב אחרי שינוי התדרים
+>>><<<דיון על רזולוצייה שקופית נפרדת גרפים מתוך
 \end_layout
 
 \begin_layout Standard
-\align center
-תדר רגעי: 
-\begin_inset Formula $f(t)$
-\end_inset
+http://cnx.org/contents/f23a2fc1-ce40-4f6a-b462-cd86c6e9f18f@3/Generalizations_of
+_the_Basic_M
+\end_layout
 
-
+\begin_layout Standard
+להדגיש: זה המקור של שגיאות המדידה
 \end_layout
 
 \begin_layout BeginFrame
@@ -617,10 +630,6 @@ status open
 \begin_inset space \hfill{}
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -824,6 +833,17 @@ hfill
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+Theoretical\,\, expectation:\,\,\Delta f(t)=f_{src}\frac{v}{c}=f_{src}\frac{g}{c}t
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -846,14 +866,6 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Formula $v(t)=gt$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Formula $\Delta f(t)=f_{src}\frac{v}{c}=f_{src}\frac{g}{c}t$
 \end_inset
 
 
@@ -902,62 +914,6 @@ status open
 
 
 \end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
-בדיקה
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\Delta f
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/regression_81.png
-	lyxscale 50
-	scale 35
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-\frac{g}{c}=jjj
-\]
 
 \end_inset
 
@@ -1284,6 +1240,17 @@ hfill
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+Theoretical\,\, expectation:\,\,\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1314,14 +1281,6 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Formula $v_{r}=v\cdot sin(\theta(t))$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Formula $\Delta f(t)=f_{src}\frac{v_{r}}{c}=f_{src}\frac{gt}{c\sqrt{1+\frac{d}{y_{0}-\frac{1}{2}gt^{2}}}}$
 \end_inset
 
 
@@ -1403,7 +1362,6 @@ status open
 \shape default
 \size default
 \emph default
-\numeric on
 \bar default
 \strikeout default
 \uuline default
@@ -1411,7 +1369,7 @@ status open
 \noun default
 \color inherit
 3
-\numeric off
+\lang hebrew
 
 \begin_inset ERT
 status open
@@ -1431,9 +1389,17 @@ hfill
 \begin_layout Standard
 \begin_inset Formula 
 \[
-\omega=\dot{\theta}\approx Const.;a_{c}=\omega^{2}R>>g
+\omega=\dot{\theta}\approx Const.\,\,\, a_{c}=\omega^{2}R>>g
 \]
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $R<<L\Rightarrow v_{rad}=vsin(\theta)\Rightarrow\Delta f(t)=-\frac{f_{src}R}{c}\omega sin(\omega t)$
 \end_inset
 
 
@@ -1454,10 +1420,6 @@ status open
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Plain Layout
 
 \end_layout
 
@@ -1582,6 +1544,17 @@ hfill
 \end_layout
 
 \begin_layout Standard
+\begin_inset Formula 
+\[
+Theoretical\,\, expectation:\,\,\Delta f(t)=-\frac{f_{src}R}{c}\omega sin(\omega t)
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1612,14 +1585,6 @@ status open
 \begin_layout Plain Layout
 \align center
 \begin_inset Formula $v_{r}=vsin(\theta)=R\omega sin(\theta)$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Plain Layout
-\align center
-\begin_inset Formula $\Delta f(t)=-\frac{f_{src}R}{c}\omega sin(\omega t)$
 \end_inset
 
 
