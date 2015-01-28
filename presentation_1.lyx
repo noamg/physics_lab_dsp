@@ -1757,45 +1757,6 @@ hfill
 \end_layout
 
 \begin_layout BeginFrame
-טלכטכלטכל
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hfill
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-תהליך עיבוד
-\end_layout
-
-\begin_layout Standard
-ארור-ברים לגרפים, להפריד לנקודות
-\end_layout
-
-\begin_layout Standard
-פורייה - להחליף סימון 
-\lang english
-fn
-\end_layout
-
-\begin_layout Standard
-להגדיל שוליים
-\end_layout
-
-\begin_layout BeginFrame
-
-\end_layout
-
-\begin_layout BeginFrame
 אי-וודאות זמן-תדר
 \family sans
 \series bold
