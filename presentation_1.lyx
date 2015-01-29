@@ -316,130 +316,6 @@ status open
 \end_layout
 
 \begin_layout BeginFrame
-רקע תיאורטי: אנליזת פורייה
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hfill
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
->>>כנראה להוריד שקופית לחלוטין, או שזו תהיה שקופית "דגימה" עם אות בציר הזמן,
- שקופית קצרה
-\family sans
-\series medium
-\shape up
-\size normal
-\emph off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\numeric on
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-10
-\family sans
-\series medium
-\shape up
-\size normal
-\emph off
-\numeric off
-\bar no
-\strikeout off
-\uuline off
-\uwave off
-\noun off
-\color none
- 
-\family default
-\series default
-\shape default
-\size default
-\emph default
-\bar default
-\strikeout default
-\uuline default
-\uwave default
-\noun default
-\color inherit
-שניות<<<
-\end_layout
-
-\begin_layout Standard
-\begin_inset Float figure
-wide false
-sideways false
-status open
-
-\begin_layout Plain Layout
-\begin_inset Graphics
-	filename for article/Sine-Wave-Half-Sampled.png
-	lyxscale 50
-	scale 20
-
-\end_inset
-
-
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-t_{m}=m\Delta T\,\,;\,\, f_{n}=n\frac{1}{N\Delta T}
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula 
-\[
-sig(t_{m})=\sum_{n=0}^{N-1}\frac{1}{N}F(f_{n})\exp(i2\pi f_{n}t_{m})
-\]
-
-\end_inset
-
-
-\begin_inset Formula 
-\[
-F(f_{n})=\sum_{m=0}^{N-1}sig(t_{m})\exp(-i2\pi f_{n}t_{m})
-\]
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout BeginFrame
 רקע תיאורטי: ספקטרוגרמה
 \begin_inset ERT
 status open
@@ -509,6 +385,112 @@ status open
 \align center
 תדר רגעי: 
 \begin_inset Formula $f(t)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+אי-וודאות זמן-תדר
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+קשר בין הפרדה בזמן להפרדה בתדר: 
+\begin_inset Formula $\delta f=\frac{1}{\Delta T}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/freq-time_domain_absolute1.png
+	lyxscale 15
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout BeginFrame
+אי וודאות זמן-תדר
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+hfill
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/freq-time_domain2.png
+	lyxscale 7
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename for article/freq-time_domain3.png
+	lyxscale 7
+	scale 25
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
 \end_inset
 
 
@@ -1675,14 +1657,6 @@ hfill
 \end_layout
 
 \begin_layout Standard
-התמודדות בסיסית: התרחקות מהקיר
-\end_layout
-
-\begin_layout Standard
-כדאי לעבור לחדר אקוסטי
-\end_layout
-
-\begin_layout Standard
 \begin_inset Float figure
 wide false
 sideways false
@@ -1705,53 +1679,9 @@ status open
 
 \end_layout
 
-\begin_layout BeginFrame
-מגבלת רזולוציית זמן ותדר בניתוח ספקטוגרמה
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-hfill
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
 \begin_layout Standard
-גרפים מתוך
-\end_layout
-
-\begin_layout Standard
-http://cnx.org/contents/f23a2fc1-ce40-4f6a-b462-cd86c6e9f18f@3/Generalizations_of
-_the_Basic_M
-\end_layout
-
-\begin_layout Standard
-להדגיש: זה המקור של שגיאות המדידה
-\end_layout
-
-\begin_layout Standard
-\begin_inset Formula $\delta f=\frac{1}{\Delta T}$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-אולי נוסחא מתוך השקופית אי וודאות זמן תדר )
-\numeric on
-2
-\numeric off
-(
-\end_layout
-
-\begin_layout Standard
-טרייד-אוף
+\align center
+התמודדות: התרחקות ממשטחים מחזירים
 \end_layout
 
 \begin_layout BeginFrame
