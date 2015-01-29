@@ -272,7 +272,7 @@ hfill
 
 \begin_layout Itemize
 בתנאי תאוצה, הנוסחא תקפה בתנאי 
-\begin_inset Formula $aT<<v$
+\begin_inset Formula $aT\ll v$
 \end_inset
 
 
@@ -458,8 +458,18 @@ hfill
 
 \begin_layout Standard
 \align center
+\begin_inset Note Note
+status collapsed
+
+\begin_layout Plain Layout
+\align center
 באיזה אופן משתנה התדר כתלות בזמן? 
 \begin_inset Formula $\Leftarrow$
+\end_inset
+
+
+\end_layout
+
 \end_inset
 
 ניתוח 
@@ -468,15 +478,6 @@ hfill
 
  לכל מקטע זמן באורך 
 \begin_inset Formula $\Delta T$
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\align center
-תדר רגעי: 
-\begin_inset Formula $f(t)$
 \end_inset
 
 
@@ -499,6 +500,15 @@ status open
 
 \end_layout
 
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+תדר רגעי: 
+\begin_inset Formula $f(t)$
 \end_inset
 
 
@@ -1379,8 +1389,6 @@ status open
 \noun default
 \color inherit
 3
-\lang hebrew
-
 \begin_inset ERT
 status open
 
