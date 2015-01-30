@@ -348,6 +348,11 @@ status collapsed
 
 \end_inset
 
+באיזה אופן משתנה התדר כתלות בזמן? 
+\end_layout
+
+\begin_layout Standard
+\align center
 ניתוח 
 \begin_inset Formula $FFT$
 \end_inset
@@ -409,7 +414,7 @@ hfill
 
 \begin_layout Standard
 \align center
-קשר בין הפרדה בזמן להפרדה בתדר: 
+רזולוציית תדר: 
 \begin_inset Formula $\delta f=\frac{1}{\Delta T}$
 \end_inset
 
